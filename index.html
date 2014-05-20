@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
-		<title>Decosud</title>
+		<title>Decosur</title>
 		<style>
 			* {
 				/* border: 1px solid red; */
@@ -17,6 +17,31 @@
 				height: 160px;
 				width: 100%;
 				background: #f9f9f9;
+				font-size: 13px;
+				font-family: "Ubuntu", ubuntu, sans;
+
+			}
+			#menusuperior #menu {
+				position: absolute;
+				right: 46px;
+				top: 85px;
+			}
+			#menusuperior #submenu {
+				position: absolute;
+				right: 239px;
+				top: 115px;
+				border-left: 1px dotted #4d4d4d;
+				padding-left: 4px;
+			}
+			#menusuperior #menu a, #menusuperior #submenu a {
+				color: #4d4d4d;
+				text-decoration: none;
+				border-right: 1px dotted #4d4d4d;
+				padding-right: 4px;
+				padding-left: 4px;
+			}
+			#menusuperior #menu a:hover, #menusuperior #submenu a:hover {
+				color: #ff3511;
 			}
 			.barranaranja {
 				display: block;
@@ -52,12 +77,39 @@
 				text-align: center;			
 			}
 			#homebanner {
-				background: green;
+				background: #2c89a0;
+				position: relative;
 				height: 321px;
+			}
+			#homebanner * .texto1, #homebanner * .texto2 {
+				position: absolute;
+				font-size: 24px;
+				font-family: "Yanone Kaffeesatz", impact, sans-serif;
+				background: #2c89a0;
+				padding-left: 96px;
+				widht: 0;
+				color: #fff;
+			}
+			#homebanner .contenedor {
+				background: green;
+			}
+			#homebanner .texto1 {
+				top: 42px;
+			}
+			#homebanner .texto2 {
+				top: 80px;
 			}
 			#homeanimacion {
 				background: #f9f9f9;
 				height: 120px;
+				font-family: "Alegreya Sans SC", sans;
+				font-size: 22px;
+				text-align: left;
+				color: #216778;
+			}
+			#homeanimaciontexto {
+				margin-left: 96px;
+				margin-top: 31px;
 			}
 			#hometextos {
 				height: 437px;				
@@ -100,20 +152,57 @@
 				color: #ff3511;
 				text-decoration: none;
 			}
+			/* genericos */
+			.contenedor {
+				width: 960px;
+				display: block;
+				margin-left: auto; 
+				margin-right: auto;
+				border: 1px solid purple;
+				display: block;
+				height: 100%;
+				position: relative;
+			}
 		</style>
 	</head>
 <body>
-	<div id="contenedor">
 		<div id="menusuperior">
 			<div class="barranaranja"></div>
-			<div id="logo"></div>
-			<div id="menu"></div>
-			<div id="idioma">| Español</div>
+			<div class="contenedor">
+				<div id="logo"></div>
+				<div id="menu">
+					<a href="#">COOPERATIVA</a>
+					<a href="#">NOTICIAS</a>
+					<a href="#">SERVICIOS</a>
+					<a href="#">CLIENTES</a>
+					<a href="#">CONTACTO</a>
+					<a href="#">CONTACTO</a>
+					<a href="#">CÓMO LLEGAR</a>
+				</div>
+				<div id="submenu">
+					<a href="#">GESTIÓN</a>
+					<a href="#">TANQUES</a>
+					<a href="#">PLANTAS</a>
+				</div>
+				<div id="idioma">| Español</div>
+			</div>
 		</div>
 		<div id="contenido">
-			<div id="homebanner"></div>
-			<div id="homeanimacion"></div>
-			<div id="hometextos"></div>
+			<div id="homebanner">
+				<div class="contenedor">
+					<div class="texto1">GESTIÓN COOPERATIVA:</div>
+					<div class="texto2">GARANTÍA DE CALIDAD Y SEGURIDAD EN EL SERVICIO</div>
+				</div>
+			</div>
+			<div id="homeanimacion">
+				<div class="contenedor">
+					<div id="homeanimaciontexto">
+					Almacenamiento y logística <br />para productos líquidos
+					</div>
+				</div>
+			</div>
+			<div id="hometextos">
+			</div>
 			<div id="homesolapas"></div>
 			<div id="homecaja">ES POLITICA DE NUESTRA COOPERATIVA PRESERVAR Y HACER PRESERVAR EL <b>MEDIO</b></br>
 			<b>AMBIENTE</b> BUSCANDO EL BIEN PROPIO Y DE LA <b>COMUNIDAD</b> QUE NOS RODEA</div>
@@ -122,6 +211,5 @@
 Morse Esq. Sargento Ponce (1871 ) Dock Sud - Provincia de Buenos Aires - Argentina <br />
 Teléfono (54 11) 4222-9240 / 4201-0922 - <br /> <a href="#"> administracion@decosurcoop.com.ar</a>
 		</div>
-	</div>
 </body>
 </html>
