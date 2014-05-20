@@ -8,6 +8,7 @@
 				/* border: 1px solid red; */
 			}
 			body, html {
+				min-width: 1070px;
 				margin: 0;
 				padding: 0;
 				background: #f9f9f9;
@@ -52,7 +53,7 @@
 				position: absolute;
 				top: 0;
 				display: block;
-				background: #ff3511;
+				background: url(img/logo.png);
 				height: 66px;
 				width: 215px;
 				margin-top: 58px;
@@ -72,7 +73,7 @@
 				color: #fff;
 			}
 			#contenido {
-				background: #216778;
+				background: url('img/contenidobg.png') center bottom no-repeat #216778;
 				height: 1168px;	
 				text-align: center;			
 			}
@@ -87,6 +88,7 @@
 				font-family: "Yanone Kaffeesatz", impact, sans-serif;
 				background: #2c89a0;
 				padding-left: 96px;
+				padding-right: 12px;
 				widht: 0;
 				color: #fff;
 			}
@@ -100,6 +102,8 @@
 				top: 80px;
 			}
 			#homeanimacion {
+				position: relative;
+				display: block;
 				background: #f9f9f9;
 				height: 120px;
 				font-family: "Alegreya Sans SC", sans;
@@ -108,16 +112,92 @@
 				color: #216778;
 			}
 			#homeanimaciontexto {
-				margin-left: 96px;
-				margin-top: 31px;
+				position: absolute;
+				left: 96px;
+				top: 31px;
 			}
 			#hometextos {
-				height: 437px;				
+				position: relative;
+				height: 437px;
+				color: #fff;				
 			}
+			#hometextos h1 {
+				position: absolute;
+				left: 158px;
+				top: 74px;
+				font-family: "Ubuntu Mono", Ubuntu, sans;
+				font-size: 22.2px;
+				text-decoration: none;
+				font-weight: normal;
+				width: 144px;
+				margin: 0;
+				padding: 0;
+			}
+			#hometextos h2 {
+				position: absolute;
+				top: 177px;
+				left: 96px;
+				font-family: "Alegreya Sans SC", sans-serif;
+				font-weight: normal;
+				margin: 0;
+				padding: 0;
+			}
+			#hometextos .parrafo1 {
+				position: absolute;
+				font-family: sans;
+				font-size: 11px;
+				top: 216px;
+				left: 96px;
+				height: 437px;	
+				width: 439px;
+				text-align: left;
+			}
+			#hometextos .parrafo2 {
+				position: absolute;
+				font-family: sans;
+				font-size: 11px;
+				top: 216px;
+				right: 96px;
+				height: 437px;	
+				width: 339px;
+				text-align: left;
+			}
+
 			#homesolapas {
 				height: 121px;				
 				background: #2c89a0;
 				box-shadow: 0 -19px 30px #174955;
+				text-align: center;
+			}
+			#homesolapas a {
+				display: inline-block;
+				margin: 0;
+				padding: 0;
+				margin-top: 15px;
+				width: 66px;
+				height: 20px;
+				font-size: 18px;
+				font-family: "Yanone Kaffeesatz", impact, serif;
+				text-decoration: none;
+				color: #06262e;
+				text-align: center;
+				padding-top: 71px;
+			}
+			#homesolapas a.gestion,	#homesolapas a.tanques {
+				margin-right: 221px;
+			}
+			#homesolapas a.gestion {
+				background: url(img/gestion.png) no-repeat;
+			}
+			#homesolapas a.tanques {
+				background: url(img/tanques.png) no-repeat;
+			}
+			#homesolapas a.plantas {
+				background: url(img/plantas.png) no-repeat;
+			}
+			#homesolapas a:hover {
+				color: #ffffff;
+				/* esto requiere animacion */
 			}
 			#homecaja {
 				position: relative;
@@ -154,13 +234,12 @@
 			}
 			/* genericos */
 			.contenedor {
-				width: 960px;
+				width: 1070px;
+				height: 100%;
 				display: block;
 				margin-left: auto; 
 				margin-right: auto;
-				border: 1px solid purple;
 				display: block;
-				height: 100%;
 				position: relative;
 			}
 		</style>
@@ -176,8 +255,8 @@
 					<a href="#">SERVICIOS</a>
 					<a href="#">CLIENTES</a>
 					<a href="#">CONTACTO</a>
-					<a href="#">CONTACTO</a>
-					<a href="#">CÓMO LLEGAR</a>
+					<a href="#" class="fin">CONTACTO</a>
+					<a href="#" class="fin" >CÓMO LLEGAR</a>
 				</div>
 				<div id="submenu">
 					<a href="#">GESTIÓN</a>
@@ -197,13 +276,34 @@
 			<div id="homeanimacion">
 				<div class="contenedor">
 					<div id="homeanimaciontexto">
-					Almacenamiento y logística <br />para productos líquidos
+					Almacenamiento y logística <br /> para productos líquidos
 					</div>
 				</div>
 			</div>
 			<div id="hometextos">
+				<div class="contenedor">
+					<h1>
+					CALIDAD
+					SEGURIDAD
+					EXPERIENCIA
+					</h1>
+					<h2>Cooperativa de Trabajo Decosur</h2>
+					<div class="parrafo1">
+						Es una empresa dedicada a brindar el servicio de almacenamiento y logística de combustibles, radicada en el puerto de Dock Sud.
+						Brindamos orgullosos el servicio satisfaciendo la exigente demanda de nuestros clientes que confían en nosotros sus valiosos productos, volcando para ello la <b>experiencia</b> acumulada durante muchos años de explotación de una de las plantas mas adecuadas y <b>mejor situadas</b> para esta prestación.
+					</div>
+					<div class="parrafo2">
+						Desde su nacimiento, la cooperativa, se esmeró en llevar adelante una mejora continua en sus procesos y en las instalaciones, de manera que en la actualidad se satisfacen los requerimientos más exigentes en calidad y seguridad de operaciones, con una dedicación y profesionalidad inmejorables basados en la naturaleza <b>autogestionada de la cooperativa</b>.
+					</div>
+				</div>
 			</div>
-			<div id="homesolapas"></div>
+			<div id="homesolapas">
+				<div class="contenedor">
+					<a href="#" class="tanques">TANQUES</a>
+					<a href="#" class="gestion">GESTIÓN</a>
+					<a href="#" class="plantas">PLANTAS</a>
+				</div>
+			</div>
 			<div id="homecaja">ES POLITICA DE NUESTRA COOPERATIVA PRESERVAR Y HACER PRESERVAR EL <b>MEDIO</b></br>
 			<b>AMBIENTE</b> BUSCANDO EL BIEN PROPIO Y DE LA <b>COMUNIDAD</b> QUE NOS RODEA</div>
 		</div>
