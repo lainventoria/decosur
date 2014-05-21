@@ -1,0 +1,291 @@
+* {
+	/* border: 1px solid red; */
+}
+body, html {
+	min-width: 1070px;
+	margin: 0;
+	padding: 0;
+	background: #f9f9f9;
+}
+/* menu */
+#menusuperior {
+	display: block;
+	height: 160px;
+	width: 100%;
+	background: #f9f9f9;
+	font-size: 13px;
+	font-family: "Ubuntu", ubuntu, sans;
+}
+#menusuperior #menu {
+	position: absolute;
+	right: 46px;
+	top: 85px;
+}
+#menusuperior #submenu {
+	position: absolute;
+	right: 239px;
+	top: 115px;
+	border-left: 1px dotted #4d4d4d;
+	padding-left: 4px;
+}
+#menusuperior #menu a, #menusuperior #submenu a {
+	color: #4d4d4d;
+	text-decoration: none;
+	border-right: 1px dotted #4d4d4d;
+	padding-right: 4px;
+	padding-left: 4px;
+}
+#menusuperior #menu a:hover, #menusuperior #submenu a:hover {
+	color: #ff3511;
+}
+.barranaranja {
+	display: block;
+	height: 9px;
+	background: #ff3511;
+}
+#logo {
+	position: absolute;
+	top: 0;
+	display: block;
+	background: url(../img/logo.png);
+	height: 66px;
+	width: 215px;
+	margin-top: 58px;
+	margin-left: 58px;
+}
+#idioma {
+	position: absolute;
+	right: 99px;
+	width: 96px;
+	heght: 11px;
+	background: #ff3511;
+	font-size: 10px;
+	font-family: ubuntu, sans;
+	text-align: right;
+	padding-bottom: 4px;
+	padding-right: 4px;
+	color: #fff;
+}
+#comollegar {
+	background: url(../img/mundo.png) 0 0 no-repeat;
+	box-shadow: 2 0 5px #000;
+	padding-left: 32px;	
+}
+
+/* <-- menu */
+
+#contenido {
+	/* este es el fondo del home, podria ir diferente */
+	background: url(../img/contenidobg.png) center bottom no-repeat #216778;
+	height: 1168px;	
+	text-align: center;
+}
+
+
+/* home */
+#homebanner {
+	background: #2c89a0;
+	position: relative;
+	height: 321px;
+}
+#homebanner * .texto1, #homebanner * .texto2 {
+	position: absolute;
+	font-size: 24px;
+	font-family: "Yanone Kaffeesatz", impact, sans-serif;
+	background: #2c89a0;
+	padding-left: 96px;
+	padding-right: 12px;
+	widht: 0;
+	color: #fff;
+}
+#homebanner .contenedor {
+	background: green;
+}
+#homebanner .texto1 {
+	top: 42px;
+}
+#homebanner .texto2 {
+	top: 80px;
+}
+#homeanimacion {
+	position: relative;
+	display: block;
+	background: #f9f9f9;
+	height: 120px;
+	font-family: "Alegreya Sans SC", sans;
+	font-size: 22px;
+	text-align: left;
+	color: #216778;
+}
+#homeanimacion img {
+	position: absolute;
+	left: 57px;
+	bottom: 15px;
+}
+#homeanimaciontexto {
+	position: absolute;
+	left: 96px;
+	top: 31px;
+}
+#homeanimacionbg {
+	position: absolute;
+	right: 149px;
+	bottom: 0;
+	width: 371px;
+	height: 82px;
+	background: url(../img/homeanimacionbg.png);	
+}
+#hometextos {
+	position: relative;
+	height: 437px;
+	color: #fff;	
+}
+#hometextos h1 {
+	position: absolute;
+	left: 256px;
+	top: 74px;
+	font-family: "Ubuntu Mono", Ubuntu, sans;
+	font-size: 22.2px;
+	text-decoration: none;
+	font-weight: normal;
+	width: 144px;
+	margin: 0;
+	padding: 0;
+}
+#hometextos h2 {
+	position: absolute;
+	top: 177px;
+	left: 96px;
+	font-family: "Alegreya Sans SC", sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+#hometextos #obrero {
+	position: absolute;
+	left: 110px;
+	top: 84px;
+	background: url(../img/obrero.png);
+	width: 67px;
+	height: 70px;
+}
+#hometextos .parrafo1 {
+	position: absolute;
+	font-family: sans;
+	font-size: 11px;
+	top: 216px;
+	left: 96px;
+	height: 437px;	
+	width: 439px;
+	text-align: left;
+}
+#hometextos .parrafo2 {
+	position: absolute;
+	font-family: sans;
+	font-size: 11px;
+	top: 216px;
+	right: 96px;
+	height: 437px;	
+	width: 339px;
+	text-align: left;
+}
+
+#homesolapas {
+	height: 121px;	
+	background: #2c89a0;
+	text-align: center;
+}
+#homesolapas a {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-top: 15px;
+	width: 66px;
+	height: 20px;
+	font-size: 18px;
+	font-family: "Yanone Kaffeesatz", impact, serif;
+	text-decoration: none;
+	color: #06262e;
+	text-align: center;
+	padding-top: 71px;
+}
+#homesolapas a.gestion,	#homesolapas a.tanques {
+	margin-right: 221px;
+}
+#homesolapas a.gestion {
+	background: url(../img/gestion.png) no-repeat;
+}
+#homesolapas a.tanques {
+	background: url(../img/tanques.png) no-repeat;
+}
+#homesolapas a.plantas {
+	background: url(../img/plantas.png) no-repeat;
+}
+#homesolapas a:hover {
+	color: #ffffff;
+	/* esto requiere animacion */
+}
+#homecaja {
+	position: relative;
+	font-family: "Ubuntu Mono", sans, sans-serif;
+	font-size: 15px;
+	color: #808080;
+	height: 50px;	
+	width: 675px;	
+	background: #f9f9f9;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-left: 52px;
+	padding-right: 52px;
+	padding-top: 15px;
+}
+#homecaja b {
+	color: #333333;
+	font-weight: normal;
+}
+
+/* <-- home */
+
+
+/* pie */
+#pie {
+	background: #f9f9f9;
+	height: 84px;
+	color: #808080;
+	font-size: 12px;
+	font-family: ubuntu, sans;
+	text-align: center;
+	padding-top: 34px;
+}
+#pie a {
+	color: #ff3511;
+	text-decoration: none;
+}
+/* genericos */
+.contenedor {
+	width: 1070px;
+	height: 100%;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+	display: block;
+	position: relative;
+}
+.sombra1 {
+	position: absolute;
+	width: 100%;
+	height: 33px;
+	background: url(../img/sombra1.png);
+	z-index: 1;
+	top: 0;
+}
+.sombra2 {
+	position: absolute;
+	width: 100%;
+	height: 33px;
+	background: url(../img/sombra2.png);
+	z-index: 1;
+	bottom: 0;
+}

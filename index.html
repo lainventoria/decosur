@@ -3,248 +3,9 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
 		<title>Decosur</title>
-		<style>
-			* {
-				/* border: 1px solid red; */
-			}
-			body, html {
-				min-width: 1070px;
-				margin: 0;
-				padding: 0;
-				background: #f9f9f9;
-			}
-			#menusuperior {
-				display: block;
-				height: 160px;
-				width: 100%;
-				background: #f9f9f9;
-				font-size: 13px;
-				font-family: "Ubuntu", ubuntu, sans;
-
-			}
-			#menusuperior #menu {
-				position: absolute;
-				right: 46px;
-				top: 85px;
-			}
-			#menusuperior #submenu {
-				position: absolute;
-				right: 239px;
-				top: 115px;
-				border-left: 1px dotted #4d4d4d;
-				padding-left: 4px;
-			}
-			#menusuperior #menu a, #menusuperior #submenu a {
-				color: #4d4d4d;
-				text-decoration: none;
-				border-right: 1px dotted #4d4d4d;
-				padding-right: 4px;
-				padding-left: 4px;
-			}
-			#menusuperior #menu a:hover, #menusuperior #submenu a:hover {
-				color: #ff3511;
-			}
-			.barranaranja {
-				display: block;
-				height: 9px;
-				background: #ff3511;
-			}
-			#logo {
-				position: absolute;
-				top: 0;
-				display: block;
-				background: url(img/logo.png);
-				height: 66px;
-				width: 215px;
-				margin-top: 58px;
-				margin-left: 58px;
-			}
-			#idioma {
-				position: absolute;
-				right: 99px;
-				width: 96px;
-				heght: 11px;
-				background: #ff3511;
-				font-size: 10px;
-				font-family: ubuntu, sans;
-				text-align: right;
-				padding-bottom: 4px;
-				padding-right: 4px;
-				color: #fff;
-			}
-			#contenido {
-				background: url('img/contenidobg.png') center bottom no-repeat #216778;
-				height: 1168px;	
-				text-align: center;			
-			}
-			#homebanner {
-				background: #2c89a0;
-				position: relative;
-				height: 321px;
-			}
-			#homebanner * .texto1, #homebanner * .texto2 {
-				position: absolute;
-				font-size: 24px;
-				font-family: "Yanone Kaffeesatz", impact, sans-serif;
-				background: #2c89a0;
-				padding-left: 96px;
-				padding-right: 12px;
-				widht: 0;
-				color: #fff;
-			}
-			#homebanner .contenedor {
-				background: green;
-			}
-			#homebanner .texto1 {
-				top: 42px;
-			}
-			#homebanner .texto2 {
-				top: 80px;
-			}
-			#homeanimacion {
-				position: relative;
-				display: block;
-				background: #f9f9f9;
-				height: 120px;
-				font-family: "Alegreya Sans SC", sans;
-				font-size: 22px;
-				text-align: left;
-				color: #216778;
-			}
-			#homeanimaciontexto {
-				position: absolute;
-				left: 96px;
-				top: 31px;
-			}
-			#hometextos {
-				position: relative;
-				height: 437px;
-				color: #fff;				
-			}
-			#hometextos h1 {
-				position: absolute;
-				left: 158px;
-				top: 74px;
-				font-family: "Ubuntu Mono", Ubuntu, sans;
-				font-size: 22.2px;
-				text-decoration: none;
-				font-weight: normal;
-				width: 144px;
-				margin: 0;
-				padding: 0;
-			}
-			#hometextos h2 {
-				position: absolute;
-				top: 177px;
-				left: 96px;
-				font-family: "Alegreya Sans SC", sans-serif;
-				font-weight: normal;
-				margin: 0;
-				padding: 0;
-			}
-			#hometextos .parrafo1 {
-				position: absolute;
-				font-family: sans;
-				font-size: 11px;
-				top: 216px;
-				left: 96px;
-				height: 437px;	
-				width: 439px;
-				text-align: left;
-			}
-			#hometextos .parrafo2 {
-				position: absolute;
-				font-family: sans;
-				font-size: 11px;
-				top: 216px;
-				right: 96px;
-				height: 437px;	
-				width: 339px;
-				text-align: left;
-			}
-
-			#homesolapas {
-				height: 121px;				
-				background: #2c89a0;
-				box-shadow: 0 -19px 30px #174955;
-				text-align: center;
-			}
-			#homesolapas a {
-				display: inline-block;
-				margin: 0;
-				padding: 0;
-				margin-top: 15px;
-				width: 66px;
-				height: 20px;
-				font-size: 18px;
-				font-family: "Yanone Kaffeesatz", impact, serif;
-				text-decoration: none;
-				color: #06262e;
-				text-align: center;
-				padding-top: 71px;
-			}
-			#homesolapas a.gestion,	#homesolapas a.tanques {
-				margin-right: 221px;
-			}
-			#homesolapas a.gestion {
-				background: url(img/gestion.png) no-repeat;
-			}
-			#homesolapas a.tanques {
-				background: url(img/tanques.png) no-repeat;
-			}
-			#homesolapas a.plantas {
-				background: url(img/plantas.png) no-repeat;
-			}
-			#homesolapas a:hover {
-				color: #ffffff;
-				/* esto requiere animacion */
-			}
-			#homecaja {
-				position: relative;
-				font-family: "Ubuntu Mono", sans, sans-serif;
-				font-size: 15px;
-				color: #808080;
-				height: 50px;				
-				width: 675px;				
-				background: #f9f9f9;
-				margin-top: 40px;
-				margin-left: auto;
-				margin-right: auto;
-				text-align: center;
-				padding-left: 52px;
-				padding-right: 52px;
-				padding-top: 15px;
-			}
-			#homecaja b {
-				color: #333333;
-				font-weight: normal;
-			}
-			#pie {
-				background: #f9f9f9;
-				height: 84px;
-				color: #808080;
-				font-size: 12px;
-				font-family: ubuntu, sans;
-				text-align: center;
-				padding-top: 34px;
-			}
-			#pie a {
-				color: #ff3511;
-				text-decoration: none;
-			}
-			/* genericos */
-			.contenedor {
-				width: 1070px;
-				height: 100%;
-				display: block;
-				margin-left: auto; 
-				margin-right: auto;
-				display: block;
-				position: relative;
-			}
-		</style>
+		<link type="text/css" rel="stylesheet" href="css/estilo.css" />
 	</head>
-<body>
+	<body>
 		<div id="menusuperior">
 			<div class="barranaranja"></div>
 			<div class="contenedor">
@@ -256,7 +17,7 @@
 					<a href="#">CLIENTES</a>
 					<a href="#">CONTACTO</a>
 					<a href="#" class="fin">CONTACTO</a>
-					<a href="#" class="fin" >CÓMO LLEGAR</a>
+					<a href="#" id="comollegar" >CÓMO LLEGAR</a>
 				</div>
 				<div id="submenu">
 					<a href="#">GESTIÓN</a>
@@ -268,20 +29,30 @@
 		</div>
 		<div id="contenido">
 			<div id="homebanner">
+				<div class="sombra1"></div>
 				<div class="contenedor">
 					<div class="texto1">GESTIÓN COOPERATIVA:</div>
 					<div class="texto2">GARANTÍA DE CALIDAD Y SEGURIDAD EN EL SERVICIO</div>
 				</div>
+				<div class="sombra2"></div>
 			</div>
 			<div id="homeanimacion">
 				<div class="contenedor">
 					<div id="homeanimaciontexto">
 					Almacenamiento y logística <br /> para productos líquidos
 					</div>
+					<div id="homeanimacionbg">
+						<img src="img/tanque.gif" />
+						<!-- aca va la animación -->
+					</div>
+					<div id="homeanimacionbgbarra">
+						<!-- aca va la animación -->
+					</div>
 				</div>
 			</div>
 			<div id="hometextos">
 				<div class="contenedor">
+					<div id="obrero"></div>
 					<h1>
 					CALIDAD
 					SEGURIDAD
@@ -292,10 +63,12 @@
 						Es una empresa dedicada a brindar el servicio de almacenamiento y logística de combustibles, radicada en el puerto de Dock Sud.
 						Brindamos orgullosos el servicio satisfaciendo la exigente demanda de nuestros clientes que confían en nosotros sus valiosos productos, volcando para ello la <b>experiencia</b> acumulada durante muchos años de explotación de una de las plantas mas adecuadas y <b>mejor situadas</b> para esta prestación.
 					</div>
+					<div id="obreros"></div>
 					<div class="parrafo2">
 						Desde su nacimiento, la cooperativa, se esmeró en llevar adelante una mejora continua en sus procesos y en las instalaciones, de manera que en la actualidad se satisfacen los requerimientos más exigentes en calidad y seguridad de operaciones, con una dedicación y profesionalidad inmejorables basados en la naturaleza <b>autogestionada de la cooperativa</b>.
 					</div>
 				</div>
+				<div class="sombra2"></div>
 			</div>
 			<div id="homesolapas">
 				<div class="contenedor">
@@ -311,5 +84,5 @@
 Morse Esq. Sargento Ponce (1871 ) Dock Sud - Provincia de Buenos Aires - Argentina <br />
 Teléfono (54 11) 4222-9240 / 4201-0922 - <br /> <a href="#"> administracion@decosurcoop.com.ar</a>
 		</div>
-</body>
+	</body>
 </html>
