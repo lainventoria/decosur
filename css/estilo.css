@@ -74,17 +74,23 @@ body, html {
 
 /* <-- menu */
 
+#inicio #contenido {
+	/* este es el fondo del home, podria ir diferente */
+	height: 1168px;	
+}
+
+#plantas #contenido {
+	/* este es el fondo del home, podria ir diferente */
+	background-color: #216778;
+	height: 1924px;	
+}
 #contenido {
 	/* este es el fondo del home, podria ir diferente */
 	background-color: #216778;
-	height: 1168px;	
 	text-align: center;
-}
-
-#incio #contenido {
 	background: url(../img/contenidobg.png) center bottom no-repeat #216778;
-}
 
+}
 
 /* home */
 #homebanner {
@@ -161,7 +167,6 @@ body, html {
 }
 /* plantas > */
 #plantas #hometextos {
-	height: 1924px;
 	color: #fff;
 }
 #plantas #hometextos p {
@@ -193,6 +198,11 @@ body, html {
 	margin: 0;
 }
 
+#plantas #hometextos h3 {
+	font-size: 22px;
+	font-family: "Ubuntu", sans;
+	text-align: left;
+}
 #plantas #hometextos h1 {
 	font-family: "Ubuntu Mono", Ubuntu, sans;
 	font-size: 48px;
@@ -203,7 +213,7 @@ body, html {
 
 /* < plantas */
 
-#incio #hometextos h1 {
+#inicio * #hometextos h1 {
 	position: absolute;
 	left: 256px;
 	top: 74px;
