@@ -76,9 +76,13 @@ body, html {
 
 #contenido {
 	/* este es el fondo del home, podria ir diferente */
-	background: url(../img/contenidobg.png) center bottom no-repeat #216778;
+	background-color: #216778;
 	height: 1168px;	
 	text-align: center;
+}
+
+#incio #contenido {
+	background: url(../img/contenidobg.png) center bottom no-repeat #216778;
 }
 
 
@@ -88,6 +92,20 @@ body, html {
 	position: relative;
 	height: 321px;
 }
+/* Platas */
+#plantas * #homebanner {
+	background: #004455;
+}
+#plantas * #homebanner h1 {
+	font-size: 89px;
+	font-family: "Ubuntu", sans;
+	text-decoration: none;
+	font-weight: normal;
+	color: #fff;
+	height: 156px;
+}
+/* < Plantas */
+
 #homebanner * .texto1, #homebanner * .texto2 {
 	position: absolute;
 	font-size: 24px;
@@ -135,12 +153,53 @@ body, html {
 	height: 82px;
 	background: url(../img/homeanimacionbg.png);	
 }
-#hometextos {
+
+#inicio #hometextos {
 	position: relative;
 	height: 437px;
 	color: #fff;	
 }
-#hometextos h1 {
+
+#plantas #hometextos {
+	color: #fff;
+}
+#plantas #hometextos p {
+	position: relative;
+	width: 1070px;
+	height: 100%;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+	display: block;
+	position: relative;
+	font-size: 16px;
+	font-family: sans;
+	margin-top: 41px;
+	text-align: left;
+}
+#plantas #hometextos p+p {
+	margin-top: 14px;	
+}
+
+#plantas #hometextos h2 {
+	position: relative;
+	font-size: 24px;
+	font-family: "Alegreya Sans SC", sans;
+	background: #004455;
+	text-align: left;
+	padding-top: 18px;
+	padding-bottom: 14px;
+}
+
+#plantas #hometextos h1 {
+	font-family: "Ubuntu Mono", Ubuntu, sans;
+	font-size: 48px;
+	text-decoration: none;
+	font-weight: normal;
+	color: #87cdde;
+}
+
+#incio #hometextos h1 {
 	position: absolute;
 	left: 256px;
 	top: 74px;
@@ -152,7 +211,8 @@ body, html {
 	margin: 0;
 	padding: 0;
 }
-#hometextos h2 {
+
+#inicio #hometextos h2 {
 	position: absolute;
 	top: 177px;
 	left: 96px;
@@ -195,7 +255,7 @@ body, html {
 	background: #2c89a0;
 	text-align: center;
 }
-#homesolapas a {
+#homesolapas a, #homesolapas .texto {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
@@ -209,7 +269,13 @@ body, html {
 	text-align: center;
 	padding-top: 71px;
 }
-#homesolapas a.gestion,	#homesolapas a.tanques {
+#homesolapas .texto big {
+	font-size: 36px;
+}
+#homesolapas .texto small {
+	font-size: 24px;
+}
+#homesolapas a.gestion,	#homesolapas a.tanques, #homesolapas .texto.comienzo {
 	margin-right: 221px;
 }
 #homesolapas a.gestion {
@@ -263,6 +329,7 @@ body, html {
 	color: #ff3511;
 	text-decoration: none;
 }
+
 /* genericos */
 .contenedor {
 	width: 1070px;
@@ -280,6 +347,10 @@ body, html {
 	background: url(../img/sombra1.png);
 	z-index: 1;
 	top: 0;
+}
+.relativo {
+	position: relative;
+	float: left;
 }
 .sombra2 {
 	position: absolute;
