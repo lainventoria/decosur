@@ -81,15 +81,14 @@ body, html {
 
 #plantas #contenido {
 	/* este es el fondo del home, podria ir diferente */
-	background-color: #216778;
-	height: 1924px;	
+	height: 2050px;
+	background: url(../img/plantasbg.png) center bottom no-repeat #216778;
+
 }
 #contenido {
 	/* este es el fondo del home, podria ir diferente */
-	background-color: #216778;
 	text-align: center;
 	background: url(../img/contenidobg.png) center bottom no-repeat #216778;
-
 }
 
 /* home */
