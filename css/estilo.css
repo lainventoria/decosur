@@ -100,15 +100,31 @@ body, html {
 /* Platas */
 #plantas * #homebanner {
 	background: #004455;
+	height: 417px;
 }
 #plantas * #homebanner h1 {
-	font-size: 89px;
+	position: absolute;
+	widht: 100%;
+	left: 0;
+	right: 0;
+	font-size: 89px; 
 	font-family: "Ubuntu", sans;
 	text-decoration: none;
 	font-weight: normal;
 	color: #fff;
 	height: 156px;
 }
+
+#plantas * #homebanner .imagen {
+	widht: 100%;
+	background: url(../img/plantasfoto.png) no-repeat center 0;
+	height: 261px;
+	widht: 285px;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* < Plantas */
 
 #homebanner * .texto1, #homebanner * .texto2 {
@@ -124,6 +140,7 @@ body, html {
 #homebanner .contenedor {
 	background: green;
 }
+
 #homebanner .texto1 {
 	top: 42px;
 }
@@ -268,7 +285,12 @@ body, html {
 	background: #2c89a0;
 	text-align: center;
 }
-#homesolapas a, #homesolapas .texto {
+#barraceleste {
+	height: 126px;
+	background: #87cdde;	
+	text-align: center;
+}
+#homesolapas a, #barraceleste span {
 	display: inline-block;
 	margin: 0;
 	padding: 0;
@@ -282,13 +304,22 @@ body, html {
 	text-align: center;
 	padding-top: 71px;
 }
-#homesolapas .texto big {
+#barraceleste span {
+	width: 150px;
+	margin-top: 0;
+	height: 126px;
+	padding: 0;
+	padding-top: 20px;
+	color: #004455;
+	display: inline-block;
+}
+#barraceleste * big {
 	font-size: 36px;
 }
-#homesolapas .texto small {
+#barraceleste * small {
 	font-size: 24px;
 }
-#homesolapas a.gestion,	#homesolapas a.tanques, #homesolapas .texto.comienzo {
+#homesolapas a.gestion,	#homesolapas a.tanques, #barraceleste .comienzo {
 	margin-right: 221px;
 }
 #homesolapas a.gestion {
