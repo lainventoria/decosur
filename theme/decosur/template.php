@@ -16,13 +16,6 @@ $innov_settings = Innovation_Settings();
 include('header.inc.php');
 ?>
 
-	<div id="homebanner">
-		<div class="sombra1"></div>
-		<h1><?php get_page_title(); ?></h1>
-		<div class="sombra1 relativo"></div>
-		<div class="imagen"></div>
-	</div>
-
 <?php get_page_content(); ?>
 
 <!-- include the footer template -->

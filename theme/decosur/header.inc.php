@@ -21,22 +21,10 @@
 			<div class="barranaranja"></div>
 			<div class="contenedor">
 				<div id="logo"></div>
-				<div id="menu">
+				<ul id="menu">
 					<!-- tengo que ver que onda este menu -->
 					<?php get_navigation(get_page_slug(FALSE)); ?>
-					<a href="#">COOPERATIVA</a>
-					<a href="#">NOTICIAS</a>
-					<a href="#">SERVICIOS</a>
-					<a href="#">CLIENTES</a>
-					<a href="#">CONTACTO</a>
-					<a href="#" class="fin">CONTACTO</a>
-					<a href="#" id="comollegar" >CÓMO LLEGAR</a>
-				</div>
-				<div id="submenu">
-					<a href="#">GESTIÓN</a>
-					<a href="#">TANQUES</a>
-					<a href="#">PLANTAS</a>
-				</div>
+				</ul>
 				<div id="idioma">| Español</div>
 			</div>
 		</div>

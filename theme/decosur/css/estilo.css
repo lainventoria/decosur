@@ -21,6 +21,10 @@ body, html {
 	right: 46px;
 	top: 85px;
 }
+#menu li {
+	list-style: none;
+	float: left;
+}
 #menusuperior #submenu {
 	position: absolute;
 	right: 239px;
