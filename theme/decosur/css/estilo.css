@@ -78,7 +78,7 @@ body, html {
 
 /* <-- menu */
 
-#inicio #contenido {
+#index #contenido {
 	/* este es el fondo del home, podria ir diferente */
 	height: 1168px;	
 }
@@ -180,7 +180,7 @@ body, html {
 	background: url(../img/homeanimacionbg.png);	
 }
 
-#inicio #hometextos {
+#index #hometextos {
 	position: relative;
 	height: 437px;
 	color: #fff;	
@@ -233,7 +233,7 @@ body, html {
 
 /* < plantas */
 
-#inicio * #hometextos h1 {
+#index * #hometextos h1 {
 	position: absolute;
 	left: 256px;
 	top: 74px;
@@ -246,7 +246,7 @@ body, html {
 	padding: 0;
 }
 
-#inicio #hometextos h2 {
+#index #hometextos h2 {
 	position: absolute;
 	top: 177px;
 	left: 96px;
