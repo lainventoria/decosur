@@ -2,7 +2,7 @@
 	/* border: 1px solid red; */
 }
 body, html {
-	min-width: 1070px;
+	min-width: 880px;
 	margin: 0;
 	padding: 0;
 	background: #f9f9f9;
@@ -78,48 +78,46 @@ body, html {
 
 /* <-- menu */
 
+#contenido {
+	text-align: center;
+	/* este es el fondo del home, podria ir diferente */
+	background: center bottom no-repeat #216778;
+}
+
+
 #index #contenido {
 	/* este es el fondo del home, podria ir diferente */
 	height: 1168px;	
-}
-
-#plantas #contenido {
 	/* este es el fondo del home, podria ir diferente */
-	height: 2050px;
-	background: url(../img/plantasbg.png) center bottom no-repeat #216778;
-
-}
-#contenido {
-	/* este es el fondo del home, podria ir diferente */
-	text-align: center;
 	background: url(../img/contenidobg.png) center bottom no-repeat #216778;
 }
 
-/* home */
-#homebanner {
-	background: #2c89a0;
-	position: relative;
-	height: 321px;
+#plantas #contenido {
+	background: url(../img/plantasbg.png) center bottom no-repeat #216778;
 }
+
+
 /* Platas */
-#plantas * #homebanner {
+#homebanner {
 	background: #004455;
+}
+#plantas #homebanner {
 	height: 417px;
 }
-#plantas * #homebanner h1 {
-	position: absolute;
+#homebanner h1 {
 	widht: 100%;
-	left: 0;
-	right: 0;
 	font-size: 89px; 
 	font-family: "Ubuntu", sans;
 	text-decoration: none;
 	font-weight: normal;
 	color: #fff;
-	height: 156px;
+	height: 132px;
+	margin: 0;
+	padding: 0;
+	padding-top: 25px;
 }
 
-#plantas * #homebanner .imagen {
+#homebanner .imagen {
 	widht: 100%;
 	background: url(../img/plantasfoto.png) no-repeat center 0;
 	height: 261px;
@@ -128,6 +126,14 @@ body, html {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* home */
+#index #homebanner {
+	background: #2c89a0;
+	position: relative;
+	height: 321px;
+}
+
 
 /* < Plantas */
 
@@ -186,12 +192,12 @@ body, html {
 	color: #fff;	
 }
 /* plantas > */
-#plantas #hometextos {
+#hometextos {
 	color: #fff;
 }
-#plantas #hometextos p {
+#hometextos p {
 	position: relative;
-	width: 1070px;
+	width: 880px;
 	height: 100%;
 	display: block;
 	margin-left: auto; 
@@ -203,11 +209,11 @@ body, html {
 	margin-top: 41px;
 	text-align: left;
 }
-#plantas #hometextos p+p {
+#hometextos p+p {
 	margin-top: 14px;	
 }
 
-#plantas #hometextos h2 {
+#hometextos h2 {
 	position: relative;
 	font-size: 24px;
 	font-family: "Alegreya Sans SC", sans;
@@ -218,12 +224,12 @@ body, html {
 	margin: 0;
 }
 
-#plantas #hometextos h3 {
+#hometextos h3 {
 	font-size: 22px;
 	font-family: "Ubuntu", sans;
 	text-align: left;
 }
-#plantas #hometextos h1 {
+#hometextos h1 {
 	font-family: "Ubuntu Mono", Ubuntu, sans;
 	font-size: 48px;
 	text-decoration: none;
@@ -290,9 +296,12 @@ body, html {
 	text-align: center;
 }
 #barraceleste {
-	height: 126px;
+	font-size: 18px;
+	font-family: "Yanone Kaffeesatz", impact, serif;
 	background: #87cdde;	
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 #homesolapas a, #barraceleste span {
 	display: inline-block;
@@ -301,8 +310,6 @@ body, html {
 	margin-top: 15px;
 	width: 66px;
 	height: 20px;
-	font-size: 18px;
-	font-family: "Yanone Kaffeesatz", impact, serif;
 	text-decoration: none;
 	color: #06262e;
 	text-align: center;
@@ -323,8 +330,9 @@ body, html {
 #barraceleste * small {
 	font-size: 24px;
 }
+
 #homesolapas a.gestion,	#homesolapas a.tanques, #barraceleste .comienzo {
-	margin-right: 221px;
+	margin-right: 200px;
 }
 #homesolapas a.gestion {
 	background: url(../img/gestion.png) no-repeat;
@@ -365,6 +373,7 @@ body, html {
 
 /* pie */
 #pie {
+	position: relative;
 	background: #f9f9f9;
 	height: 84px;
 	color: #808080;
@@ -378,9 +387,18 @@ body, html {
 	text-decoration: none;
 }
 
+#coopdisenio {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	display: block;
+	background: url('../img/cooperativa_disenio.png');
+	width: 114px;
+	height: 19px;
+}
 /* genericos */
 .contenedor {
-	width: 1070px;
+	width: 880px;
 	height: 100%;
 	display: block;
 	margin-left: auto; 
@@ -408,3 +426,146 @@ body, html {
 	z-index: 1;
 	bottom: 0;
 }
+
+table {
+	display: inline;
+	border: 1px solid #d5f6ff;
+	width: 420px;
+	font-family: "Yanone Kaffeesatz", times, serif;
+	font-size: 20px;
+	border-collapse: collapse;
+}
+
+table+table {
+	margin-left: 35px;
+}
+
+thead {
+	background: #87cdde;
+	color: #004455;
+
+}
+
+tr, td, th, table, tbody, thead {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+td, th {
+	border: 1px solid #d5f6ff;
+}
+
+td {
+	width: 140px;
+}
+
+
+/* gestion --> */
+
+.imagenes3 {
+	font-family: "Yanone Kaffeesatz", times, serif;
+	font-size: 20px;
+	height: 160px;
+	overflow: hidden;
+}
+.imagenes3 .imagen {
+	float: left;
+	top: 0;
+	height: 160px;
+	width: 274px;
+	position: relative;
+}
+.imagenes3 .imagen span {
+	height: 28px;
+	background: #004455;
+	position: absolute;
+	left: 0;
+	bottom: 31px;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.imagenes3 .capacitacion {
+	background: url('../../../images/gestion_s01_capacitacion.jpg');
+	margin-right: 29px;
+}
+.imagenes3 .cursos {
+	background: url('../../../images/gestion_s02_curso.jpg');
+	position: absolute;
+	right: 0;
+}
+.imagenes3 .laboratorio {
+	background: url('../../../images/gestion_s03laboratorio.jpg');
+}
+
+.imagenes2 {
+	color: #00222b;
+	font-family: "Yanone Kaffeesatz", times, serif;
+	font-size: 20px;
+	height: 297px;
+	overflow: hidden;
+}
+.imagenes2 .imagen {
+	float: left;
+	top: 0;
+	height: 297px;
+	width: 403px;
+	position: relative;
+}
+.imagenes2 .imagen span {
+	height: 28px;
+	background: #5fbcd3;
+	position: absolute;
+	left: 0;
+	bottom: 31px;
+	padding-left: 14px;
+	padding-right: 14px;
+}
+.imagenes2 .espuma {
+	background: url('../../../images/gestion_m01espuma.jpg');
+}
+
+.imagenes2 .hidrantes {
+	background: url('../../../images/gestion_m02hidrantes.jpg');
+	position: absolute;
+	right: 0;
+}
+
+#gestion #contenido {
+	padding-bottom: 140px;
+}
+
+/* <-- gestion */
+
+/* clientes --> */
+
+#clientes * .columna1, #clientes * .columna2, #clientes * .columna3 {
+	background: #fff;
+	width: 224px;
+	height: 643px;
+	display: inline-block;
+}
+#clientes * .columna1 {
+	margin-right: 71px;
+}
+#clientes * .columna2 {
+	margin-right: 71px;
+}
+/* <-- clientes */
+
+/* noticias */
+
+#noticias img {
+	display: block;
+	width: 189px;
+	height: 141px;
+	float: left;
+	margin-right: 41px;
+}
+#noticias p {
+	height: 141px;
+	margin-bottom: 41px;
+}
+
+
+/* <-- noticias */

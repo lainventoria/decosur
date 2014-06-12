@@ -11,6 +11,7 @@
 		<div id="pie">
 Morse Esq. Sargento Ponce (1871 ) Dock Sud - Provincia de Buenos Aires - Argentina <br />
 Teléfono (54 11) 4222-9240 / 4201-0922 - <br /> <a href="mailto:administracion@decosurcoop.com.ar">administracion@decosurcoop.com.ar</a>
+			<a id="coopdisenio" href="#"></a>
 		</div>
 	</body>
 </html>
