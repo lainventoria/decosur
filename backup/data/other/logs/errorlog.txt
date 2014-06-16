@@ -1,0 +1,20 @@
+[10-Jun-2014 15:56:28] PHP Warning:  include(/mnt/sda3/ernesto/decosur/theme/Innovation/template.php): failed to open stream: No existe el fichero o el directorio in /mnt/sda3/ernesto/decosur/index.php on line 131
+[10-Jun-2014 15:56:28] PHP Warning:  include(): Failed opening '/mnt/sda3/ernesto/decosur/theme/Innovation/template.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /mnt/sda3/ernesto/decosur/index.php on line 131
+[10-Jun-2014 15:57:52] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 198
+[10-Jun-2014 15:57:52] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 201
+[10-Jun-2014 15:58:19] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 198
+[10-Jun-2014 15:58:19] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 201
+[10-Jun-2014 15:58:35] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 198
+[10-Jun-2014 15:58:35] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 201
+[10-Jun-2014 15:58:49] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 198
+[10-Jun-2014 15:58:49] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 201
+[10-Jun-2014 15:59:04] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 198
+[10-Jun-2014 15:59:04] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 201
+[10-Jun-2014 15:59:19] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 198
+[10-Jun-2014 15:59:19] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 201
+[10-Jun-2014 15:59:47] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 198
+[10-Jun-2014 15:59:47] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 201
+[10-Jun-2014 16:00:00] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 198
+[10-Jun-2014 16:00:00] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 201
+[10-Jun-2014 16:00:14] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 198
+[10-Jun-2014 16:00:14] PHP Notice:  Undefined index: existing-url in /mnt/sda3/ernesto/decosur/admin/changedata.php on line 201
