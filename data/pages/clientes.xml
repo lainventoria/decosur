@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Thu, 12 Jun 2014 14:09:02 -0300</pubDate><title><![CDATA[CLIENTES]]></title><url><![CDATA[clientes]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[CLIENTES]]></menu><menuOrder><![CDATA[3]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[			&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Thu, 19 Jun 2014 04:10:10 +0000</pubDate><title><![CDATA[CLIENTES]]></title><url><![CDATA[clientes]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[CLIENTES]]></menu><menuOrder><![CDATA[4]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[			&lt;div id=&quot;homebanner&quot;&gt;
 				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Clientes&lt;/h1&gt;
 			&lt;/div&gt;
@@ -11,24 +11,23 @@
 			&lt;div id=&quot;hometextos&quot;&gt;
 				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;p&gt;Desde el comienzo del trabajo como cooperativa la política ha sido centrada en la satisfacción de las necesidades del cliente,  mejorando la eficiencia y dedicación a cada tarea.
-En los últimos años la actividad se ha centrado en el trabajo con hidrocarburos como gasoil, fuel-oil y naftas destinados a  dar principalmente servicios que permitan:
+En los últimos años la actividad se ha centrado en el trabajo con hidrocarburos como gasoil, fuel-oil y naftas destinados a  dar principalmente servicios que permitan:&lt;/p&gt;
 					&lt;ul&gt;
 						&lt;li&gt;Facilitar la reserva de combustibles líquidos para garantizar el funcionamiento de las industrias ante la falta de suministro de otras fuentes.&lt;/li&gt;
 						&lt;li&gt;Brindar la logística necesaria para la comercialización de hidrocarburos.&lt;/li&gt;
 						&lt;li&gt;Actuar como terminal portuaria en operaciones de exportación o importación&lt;/li&gt;
 						&lt;li&gt;Abastecer de combustibles líquidos a centrales generadoras de electricidad.&lt;/li&gt;
 					&lt;/ul&gt;
-				&lt;/p&gt;
 				&lt;h2&gt;&lt;div class=&quot;contenedor&quot;&gt;Estos servicios nos han permitido establecer una cartera de clientes que incluye a parte de las  principales empresas del sector&lt;/div&gt; &lt;/h2&gt;
-				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
-				&lt;p&gt;
-					&lt;div class=&quot;columna1&quot;&gt;&lt;/div&gt;
-					&lt;div class=&quot;columna2&quot;&gt;&lt;/div&gt;
-					&lt;div class=&quot;columna3&quot;&gt;&lt;/div&gt;
- 					&lt;div class=&quot;sombra2 relativo&quot;&gt;&lt;/div&gt;
-				&lt;/p&gt;
+				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
+						&lt;div class=&quot;contenedor imagenes3&quot;&gt;
+							&lt;div class=&quot;imagen s01&quot; &gt;&lt;/div&gt;
+							&lt;div class=&quot;imagen s02&quot; &gt;&lt;/div&gt;
+							&lt;div class=&quot;imagen s03&quot; &gt;&lt;/div&gt;
+							&lt;div class=&quot;sombra2&quot;&gt;&lt;/div&gt;
+						&lt;/div&gt;
 				&lt;h1&gt;Sistema eléctrico&lt;/h1&gt;
 				&lt;p&gt;En los últimos años, como consecuencia del crecimiento sostenido de la actividad económica se ha incrementado el consumo energético de manera notable, más del 60 % de la generación eléctrica se produce en centrales térmicas alimentadas mediante combustibles de origen mineral.&lt;/ br&gt;
 La Cooperativa Decosur contribuye con sus actividades al abastecimiento de estas centrales distribuidas a lo largo de todo el país, habiendo alcanzado un nivel de eficiencia valorado por los organismos responsables del suministro eléctrico y recibido distinciones de la Secretaría de Energía de la Nación.&lt;/p&gt;
 
-				&lt;p&gt;Esta responsabilidad nos enorgullece, ha permitido el crecimiento de la cooperativa duplicando en estos años el número de trabajadores y la capacidad de las instalaciones pero fundamentalmente porque nos permite contribuir al desarrollo de nuestra patria.&lt;/p&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[coop]]></author></item>
+				&lt;p&gt;Esta responsabilidad nos enorgullece, ha permitido el crecimiento de la cooperativa duplicando en estos años el número de trabajadores y la capacidad de las instalaciones pero fundamentalmente porque nos permite contribuir al desarrollo de nuestra patria.&lt;/p&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Thu, 12 Jun 2014 12:42:30 -0300</pubDate><title><![CDATA[GESTIÓN]]></title><url><![CDATA[gestion]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[GESTIÓN]]></menu><menuOrder><![CDATA[8]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[servicios]]></parent><content><![CDATA[			&lt;div id=&quot;homebanner&quot;&gt;
-				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
+<item><pubDate>Thu, 19 Jun 2014 06:37:45 -0300</pubDate><title><![CDATA[GESTIÓN]]></title><url><![CDATA[gestion]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[SERVICIOS]]></menu><menuOrder><![CDATA[3]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
+			&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Gestión&lt;/h1&gt;
 			&lt;/div&gt;
-				&lt;div id=&quot;barraceleste&quot;&gt;
-						&lt;div class=&quot;contenedor&quot;&gt;
-							Gestión Cooperativa: Garantía de Calidad y Seguridad en el Servicio
-						&lt;/div&gt;
+			&lt;div id=&quot;barraceleste&quot;&gt;
+				&lt;div class=&quot;contenedor&quot;&gt;
+					Gestión Cooperativa: Garantía de Calidad y Seguridad en el Servicio
 				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
 			&lt;div id=&quot;hometextos&quot;&gt;
-				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
 				&lt;p&gt;A lo largo del proceso de recepción, almacenamiento y despacho se emplean rigurosas &lt;b&gt;medidas de control y seguimiento&lt;/b&gt;, con laboratorio de análisis, registración y emisión de certificaciones en cada etapa, estableciendo un sistema de control de los equipos de medición y trazabilidad de los productos. &lt;b&gt;Dichas tareas están permanentemente controladas por auditores externos&lt;/b&gt; que, en combinación con el cliente y establecen los requisitos y parámetros de cada operación.&lt;/p&gt;
 						&lt;div class=&quot;contenedor imagenes3&quot;&gt;
 							&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
-							&lt;div class=&quot;imagen capacitacion&quot; &gt;&lt;span&gt;Capacitación&lt;/span&gt;&lt;/div&gt;
-							&lt;div class=&quot;imagen cursos&quot; &gt;&lt;span&gt;Curso sobre cargaderos y camiones&lt;/span&gt;&lt;/div&gt;
-							&lt;div class=&quot;imagen laboratorio&quot; &gt;&lt;span&gt;Laboratorio&lt;/span&gt;&lt;/div&gt;
+							&lt;div class=&quot;imagen s01&quot; &gt;&lt;span&gt;Capacitación&lt;/span&gt;&lt;/div&gt;
+							&lt;div class=&quot;imagen s02&quot; &gt;&lt;span&gt;Curso sobre cargaderos y camiones&lt;/span&gt;&lt;/div&gt;
+							&lt;div class=&quot;imagen s03&quot; &gt;&lt;span&gt;Laboratorio&lt;/span&gt;&lt;/div&gt;
 							&lt;div class=&quot;sombra2&quot;&gt;&lt;/div&gt;
 						&lt;/div&gt;
 				&lt;p&gt;DECOSUR satisface las normativas más exigentes en cuanto a la higiene, seguridad y preservación del medio ambiente estableciendo un sistema de análisis de riesgos específicos y potenciales de su actividad, realizando ensayos y simulacros periódicos de los equipos e instalaciones.&lt;/p&gt;
@@ -23,13 +23,13 @@
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
 				&lt;p&gt;La política de calidad se fortalece con el compromiso de cada trabajador asociado, obteniendo altos niveles de eficiencia y responsabilidad en las tareas, habiendo acentuado las acciones de capacitación evaluación de desempeño y mejora continua en los procesos. &lt;/p&gt;
 				&lt;h1&gt;Gestión Ambiental&lt;/h1&gt;
-				&lt;p&gt;Cooperativa de Trabajo Decosur ha puesto en marcha el Programa de Reconversión Industrial PRI acordado con la Autoridad de Cuenca Matanza Riachuelo (ACUMAR) para la preservación de los recursos naturales complementando la política de gestión ambiental de la entidad.&lt;/p&gt;
-				&lt;p&gt;Dentro del mismo se han dispuesto tareas de monitoreo, prevención y control de la actividad, y se han construido nuevas instalaciones de monitoreo y tratamiento de desagües pluviales. &lt;/p&gt;
-						&lt;div class=&quot;contenedor imagenes2&quot;&gt;
-							&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
-							&lt;div class=&quot;imagen espuma&quot; &gt;&lt;span&gt;Ensayo de espuma en muelle&lt;/span&gt;&lt;/div&gt;
-							&lt;div class=&quot;imagen hidrantes&quot; &gt;&lt;span&gt;Ensayo hidrantes&lt;/span&gt;&lt;/div&gt;
-							&lt;div class=&quot;sombra2&quot;&gt;&lt;/div&gt;
-						&lt;/div&gt;
-			&lt;/div&gt;
-&lt;/div&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[coop]]></author></item>
+				&lt;p&gt;Cooperativa de Trabajo Decosur ha puesto en marcha el Programa de Reconversión Industrial PRI acordado con la Autoridad de Cuenca Matanza Riachuelo (ACUMAR) para la preservación de los recursos naturales complementando la política de gestión ambiental de la entidad.&lt;br /&gt;
+Dentro del mismo se han dispuesto tareas de monitoreo, prevención y control de la actividad, y se han construido nuevas instalaciones de monitoreo y tratamiento de desagües pluviales. &lt;/p&gt;
+				&lt;div class=&quot;contenedor imagenes2&quot;&gt;
+					&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
+					&lt;div class=&quot;imagen s01&quot; &gt;&lt;span&gt;Ensayo de espuma en muelle&lt;/span&gt;&lt;/div&gt;
+					&lt;div class=&quot;imagen s03&quot; &gt;&lt;span&gt;Ensayo hidrantes&lt;/span&gt;&lt;/div&gt;
+					&lt;div class=&quot;sombra2&quot;&gt;&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;div id=&quot;gestionfg&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>

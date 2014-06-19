@@ -6,6 +6,8 @@ body, html {
 	margin: 0;
 	padding: 0;
 	background: #f9f9f9;
+    font-family: "Verdana", "Arial", sans;
+    font-family: Arial,Helvetica,sans-serif;
 }
 /* menu */
 #menusuperior {
@@ -18,30 +20,57 @@ body, html {
 }
 #menusuperior #menu {
 	position: absolute;
-	right: 46px;
+	right: -26px;
 	top: 85px;
 }
-#menu li {
+#submenu li, #menu li {
 	list-style: none;
 	float: left;
 }
+
+/* nota servicios en el css del menu se llama gestion */
+.gestion, .gestion, .noticias, .cooperativa, .clientes, .plantas,  .tanques {
+	border-right: 1px dotted #4d4d4d;
+	padding-right: 14px;
+	padding-left:14px;
+}
+
+#submenu li a, #menu li a {
+	color: #4d4d4d;
+	text-decoration: none;
+}
+
+#menu li a:hover, #submenu li a:hover, #menu li.active a {
+	color: #ff3511;
+}
+
+.contacto {
+	padding-right: 14px;
+	padding-left:14px;	
+}
+
+.como-llegar {
+	border-radius: 4px;
+	padding-right: 8px;
+	padding-left:32px;
+	background:  url(../img/icono/icono_mundo.png) 10px 8px no-repeat;
+	box-shadow: 1px 2px 3px #d3d3d3;
+	padding-top: 6px;
+	margin-top: -6px; /* para alinearlo con el resto del menu */ 
+	padding-bottom: 6px;
+}
+
+
+
 #menusuperior #submenu {
 	position: absolute;
-	right: 239px;
-	top: 115px;
+	right: 204px;
+	top: 105px;
 	border-left: 1px dotted #4d4d4d;
 	padding-left: 4px;
 }
-#menusuperior #menu a, #menusuperior #submenu a {
-	color: #4d4d4d;
-	text-decoration: none;
-	border-right: 1px dotted #4d4d4d;
-	padding-right: 4px;
-	padding-left: 4px;
-}
-#menusuperior #menu a:hover, #menusuperior #submenu a:hover {
-	color: #ff3511;
-}
+
+
 .barranaranja {
 	display: block;
 	height: 9px;
@@ -86,16 +115,35 @@ body, html {
 
 
 #index #contenido {
-	/* este es el fondo del home, podria ir diferente */
-	height: 1168px;	
-	/* este es el fondo del home, podria ir diferente */
-	background: url(../img/contenidobg.png) center bottom no-repeat #216778;
+	background: url(../img/bg/index.png) center bottom no-repeat #216778;	
 }
 
 #plantas #contenido {
-	background: url(../img/plantasbg.png) center bottom no-repeat #216778;
+	background: url(../img/bg/plantasbg.png) center bottom no-repeat #216778;
 }
 
+
+#cooperativa #contenido {
+	background: url(../img/bg/cooperativa.png) center bottom no-repeat #216778;
+}
+
+#gestion #contenido {
+	position: relative;
+	background: url(../img/bg/gestion.png) center top no-repeat #216778;
+	height: 1342px;
+}
+
+#gestionfg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 537px;
+	background: url(../img/bg/gestionfg.png) center top no-repeat;
+}
+#cooperativa #contenido p {
+	line-height: 1.5;
+}
 
 /* Platas */
 #homebanner {
@@ -117,14 +165,23 @@ body, html {
 	padding-top: 25px;
 }
 
+
+
 #homebanner .imagen {
 	widht: 100%;
-	background: url(../img/plantasfoto.png) no-repeat center 0;
 	height: 261px;
 	widht: 285px;
 	padding: 0;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#plantas * #homebanner .imagen {
+	background: url(../img/banner/plantas.jpg) no-repeat center 0;
+}
+
+#cooperativa * #homebanner .imagen {
+	background: url(../img/banner/cooperativa.jpg) no-repeat center 0;
 }
 
 /* home */
@@ -148,7 +205,8 @@ body, html {
 	color: #fff;
 }
 #homebanner .contenedor {
-	background: green;
+	background: url(../img/banner/index.png);
+	width: 1067px;
 }
 
 #homebanner .texto1 {
@@ -166,6 +224,7 @@ body, html {
 	font-size: 22px;
 	text-align: left;
 	color: #216778;
+	overflow: hidden;
 }
 #homeanimacion img {
 	position: absolute;
@@ -174,29 +233,38 @@ body, html {
 }
 #homeanimaciontexto {
 	position: absolute;
-	left: 96px;
+	left: 0;
 	top: 31px;
 }
 #homeanimacionbg {
 	position: absolute;
-	right: 149px;
-	bottom: 0;
-	width: 371px;
-	height: 82px;
-	background: url(../img/homeanimacionbg.png);	
+	right: -140px;
+	bottom: -2px;
+	width: 512px;
+	height: 96px;
+	background: url(../img/homeanimacionbg.png);
 }
 
 #index #hometextos {
 	position: relative;
 	height: 437px;
-	color: #fff;	
 }
+#cooperativa * #hometextos {
+	padding-bottom: 26px;	
+}
+#clientes * #hometextos {
+	padding-bottom: 201px;	
+}
+
+
 /* plantas > */
 #hometextos {
 	color: #fff;
 }
-#hometextos p {
+#hometextos ul, #hometextos p {
 	position: relative;
+	margin: 0;
+	padding: 0;
 	width: 880px;
 	height: 100%;
 	display: block;
@@ -206,22 +274,36 @@ body, html {
 	position: relative;
 	font-size: 16px;
 	font-family: sans;
-	margin-top: 41px;
+	padding-top: 21px;
 	text-align: left;
 }
+
 #hometextos p+p {
 	margin-top: 14px;	
 }
 
+#hometextos ul li {
+	margin-left: 17px;	
+	padding-left: 17px;	
+}
+
+#hometextos ul {
+	margin-bottom: 26px;
+}
+
 #hometextos h2 {
-	position: relative;
 	font-size: 24px;
 	font-family: "Alegreya Sans SC", sans;
 	background: #004455;
-	text-align: left;
 	padding-top: 18px;
 	padding-bottom: 14px;
 	margin: 0;
+}
+
+#gestion #hometextos h2 {
+	font-size: 20px;
+	font-family: sans, Arial;
+	text-align: left;
 }
 
 #hometextos h3 {
@@ -237,11 +319,15 @@ body, html {
 	color: #87cdde;
 }
 
+#clientes * #hometextos  h1 {
+	padding-top: 30px;
+}
+
 /* < plantas */
 
 #index * #hometextos h1 {
 	position: absolute;
-	left: 256px;
+	left: 159px;
 	top: 74px;
 	font-family: "Ubuntu Mono", Ubuntu, sans;
 	font-size: 22.2px;
@@ -250,20 +336,23 @@ body, html {
 	width: 144px;
 	margin: 0;
 	padding: 0;
+	color: #fff;
 }
 
 #index #hometextos h2 {
 	position: absolute;
 	top: 177px;
-	left: 96px;
+	left: 0;
 	font-family: "Alegreya Sans SC", sans-serif;
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
+	background: none;
+	font-size: 22px;
 }
 #hometextos #obrero {
 	position: absolute;
-	left: 110px;
+	left: 14px;
 	top: 84px;
 	background: url(../img/obrero.png);
 	width: 67px;
@@ -274,20 +363,20 @@ body, html {
 	font-family: sans;
 	font-size: 11px;
 	top: 216px;
-	left: 96px;
-	height: 437px;	
+	left: 0;
 	width: 439px;
-	text-align: left;
+	text-align: justify;
+	line-height: 2;
 }
 #hometextos .parrafo2 {
 	position: absolute;
 	font-family: sans;
 	font-size: 11px;
 	top: 216px;
-	right: 96px;
-	height: 437px;	
+	right: 0;
 	width: 339px;
-	text-align: left;
+	text-align: justify;
+	line-height: 2;
 }
 
 #homesolapas {
@@ -296,12 +385,18 @@ body, html {
 	text-align: center;
 }
 #barraceleste {
-	font-size: 18px;
+	font-size: 24px;
 	font-family: "Yanone Kaffeesatz", impact, serif;
 	background: #87cdde;	
 	text-align: center;
 	margin: 0;
 	padding: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#cooperativa * #barraceleste {
+	height: 62px;  /* esto se necesita en cooperativa */
 }
 #homesolapas a, #barraceleste span {
 	display: inline-block;
@@ -398,6 +493,7 @@ body, html {
 }
 /* genericos */
 .contenedor {
+	tex-align: left;
 	width: 880px;
 	height: 100%;
 	display: block;
@@ -406,17 +502,23 @@ body, html {
 	display: block;
 	position: relative;
 }
+#cooperativa * h2 .contenedor  {
+	width: 960px;
+	tex-align: center;
+}
+
 .sombra1 {
-	position: absolute;
+	position: relative;
 	width: 100%;
-	height: 33px;
+	padding-top: 33px;
 	background: url(../img/sombra1.png);
 	z-index: 1;
 	top: 0;
+	left: 0;
 }
 .relativo {
-	position: relative;
-	float: left;
+	 /* le quita volumen */
+	margin-bottom: -33px;
 }
 .sombra2 {
 	position: absolute;
@@ -468,14 +570,26 @@ td {
 	font-size: 20px;
 	height: 160px;
 	overflow: hidden;
+	position: relative;
 }
+
 .imagenes3 .imagen {
-	float: left;
+	position: absolute;
 	top: 0;
 	height: 160px;
 	width: 274px;
-	position: relative;
 }
+
+#clientes * .imagenes3 {
+	height: 643px;
+}
+
+#clientes * .imagenes3 .imagen {
+	background: #fff;
+	width: 224px;
+	height: 643px;
+}
+
 .imagenes3 .imagen span {
 	height: 28px;
 	background: #004455;
@@ -485,18 +599,70 @@ td {
 	padding-left: 14px;
 	padding-right: 14px;
 }
-.imagenes3 .capacitacion {
-	background: url('../../../images/gestion_s01_capacitacion.jpg');
-	margin-right: 29px;
+
+/* serie de imagenes */
+
+.imagenes3 .s01 {
+	left: 0;
 }
-.imagenes3 .cursos {
-	background: url('../../../images/gestion_s02_curso.jpg');
-	position: absolute;
+.imagenes3 .s02 {
+	left: 301px;
+}
+.imagenes3 .s03 {
 	right: 0;
 }
-.imagenes3 .laboratorio {
+
+
+
+#index #contenido {
+	padding-bottom: 62px;
+}
+
+/* gestion */
+#gestion .imagenes3 .s01 {
+	background: url('../../../images/gestion_s01_capacitacion.jpg');
+}
+#gestion .imagenes3 .s02 {
+	background: url('../../../images/gestion_s02_curso.jpg');
+}
+#gestion .imagenes3 .s03 {
 	background: url('../../../images/gestion_s03laboratorio.jpg');
 }
+
+/* cooperativa */
+#cooperativa .imagenes3 .s01 {
+	background: url('../img/imagenes3/cooperativa_s01.jpg');
+}
+#cooperativa .imagenes3 .s02 {
+	background: url('../img/imagenes3/cooperativa_s02.jpg');
+}
+#cooperativa .imagenes3 .s03 {
+	background: url('../img/imagenes3/cooperativa_s03.jpg');
+}
+#cooperativa * p {
+	position: relative;
+}
+#cooperativa * #icono_obreros  {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 880px;
+	height: 100%;
+	display: block;
+	margin-left: auto; 
+	margin-right: auto;
+	display: block;
+	position: relative;
+	font-size: 16px;
+	font-family: sans;
+	padding-top: 0;
+	height: 59px;
+	top: -20px;
+	margin-bottom: -20px;
+	text-align: left;
+	background: url('../img/icono/icono_obreros.png') right 0 no-repeat;
+}
+/* ---- */
 
 .imagenes2 {
 	color: #00222b;
@@ -505,12 +671,14 @@ td {
 	height: 297px;
 	overflow: hidden;
 }
+#gestion * .imagenes2 {
+	margin-top: 50px;	
+}
 .imagenes2 .imagen {
-	float: left;
+	position: absolute;
 	top: 0;
 	height: 297px;
 	width: 403px;
-	position: relative;
 }
 .imagenes2 .imagen span {
 	height: 28px;
@@ -520,13 +688,14 @@ td {
 	bottom: 31px;
 	padding-left: 14px;
 	padding-right: 14px;
+	z-index: 2;
 }
-.imagenes2 .espuma {
-	background: url('../../../images/gestion_m01espuma.jpg');
+.imagenes2 .s01 {
+	background: url('../img/imagenes2/gestion_m01espuma.jpg');
 }
 
-.imagenes2 .hidrantes {
-	background: url('../../../images/gestion_m02hidrantes.jpg');
+.imagenes2 .s03 {
+	background: url('../img/imagenes2/gestion_m02hidrantes.jpg');
 	position: absolute;
 	right: 0;
 }
@@ -534,6 +703,11 @@ td {
 #gestion #contenido {
 	padding-bottom: 140px;
 }
+
+#noticias #contenido {
+	padding-bottom: 80px;
+}
+
 
 /* <-- gestion */
 
@@ -562,10 +736,129 @@ td {
 	float: left;
 	margin-right: 41px;
 }
+
+#noticias #hometextos h2 {
+	font-size: 20px;
+	font-family: "Alegreya Sans SC", sans;
+	background: #004455;
+	padding-top: 15px;
+	padding-bottom: 13px;
+	margin: 0;
+	background: #2c89a0;
+	text-align: left;
+}
+
 #noticias p {
-	height: 141px;
+	border-bottom: 1px solid #afdde9;
+	height: 122px;
+	width: 657px;
+	padding: 0;
+	padding-left: 223px;
+	line-height: 1.5;
 	margin-bottom: 41px;
+	padding-top: 19px;
+	position: relative;
+}
+
+#noticia1:target, #noticia2:target,  #noticia3:target {
+	height: 360px;
+	padding-left: 380px;
+	width: 500px;
+}
+
+#noticias p .mas, #noticias p .menos {
+	position: absolute;
+	right: -30px;
+	bottom: -11px;
+	display: block;
+	color: #aaeeff;
+	text-decoration: none;
+	height: auto;
+	background: #216778;
+	padding-left: 25px;
+}
+
+#noticias p span,  #noticias p .menos {
+	display: none;
 }
 
 
+#noticia1 {
+	background: url(../img/noticias/noticia_01s.jpg) 0 0 no-repeat;
+}
+
+#noticia1:target {
+	background: url(../img/noticias/noticia_01g.jpg) 0 0 no-repeat;
+}
+
+#noticia2 {
+	background: url(../img/noticias/noticia_02s.jpg) 0 0 no-repeat;
+}
+
+#noticia2:target {
+	background: url(../img/noticias/noticia_02g.jpg) 0 0 no-repeat;
+}
+
+#noticia3 {
+	background: url(../img/noticias/noticia_03s.jpg) 0 0 no-repeat;
+}
+
+#noticia3:target {
+	background: url(../img/noticias/noticia_03g.jpg) 0 0 no-repeat;
+}
+
+
+#noticia1:target span, #noticia2:target span,  #noticia3:target span {
+	display: block;
+}
+
+#noticia1:target .menos, #noticia2:target .menos,  #noticia3:target .menos {
+	display: block;
+}
+
+#noticia1:target .mas, #noticia2:target .mas,  #noticia3:target .mas {
+	display: none;
+}
+
 /* <-- noticias */
+
+#logo a {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+
+/* contactos --> */
+
+
+#cbform { width: 100%; }
+
+.noshow { display: none;  }
+
+.cbclear { clear: both; } 
+.cbclearleft { clear: left;}
+
+.cbleft { float: left; text-align: right; width: 85px;}
+.cbright { background-color: #316594; color: #FFFFFF; font-size: 14px; margin-bottom: 6px; margin-left: 5px; width: 400px; }
+.cbrightV { background-color: #316594; color: #FFFFFF; font-size: 14px; margin-bottom: 6px; margin-left: 90px; width: 400px; }
+#cbform textarea { font-size: 14px; height: 100px; margin-left: 5px; width: 400px; }
+
+.cbcaptcha { padding-left: 90px; width: 400px; float: left; }
+ #cbform .cbcaptcha .cbcaptchaimg { float: left; margin-top: 0px; margin-bottom: 5px; width: 170px; }
+.cbcaptcha_label { font-size: 16px; width: 390px; float: left; margin-top: 5px; }
+.cbcaptcha_input { background-color: #316594; color: #FFFFFF; float: left; font-size:20px; margin-left: 5px; margin-top: 3px; text-align: center; width: 90px; }
+.cbcaptcha_write { font-size: 12px; font-style: italic; margin-left: 175px; margin-top: -10px; position: absolute; }
+
+.cbreload { float: left; font-size: 18px; margin-left: 5px; margin-top: 1px; width: 100px; }
+.cbreload_label { font-size: 10px; font-style: italic; }
+
+.cbpadleft { padding-left: 90px; }
+
+.cbsend { font-size: 18px; margin-left: 2px; width: 75px; }
+
+
+
+
+
+/* <-- contactos */

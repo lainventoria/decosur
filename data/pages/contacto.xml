@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Tue, 10 Jun 2014 16:11:39 -0300</pubDate><title>CONTACTO</title><url>contacto</url><meta/><metad/><menu>CONTACTO</menu><menuStatus>Y</menuStatus><template>template.php</template><parent/><content/><private/><author>coop</author><menuOrder><![CDATA[4]]></menuOrder></item>
+<item><pubDate>Thu, 19 Jun 2014 04:43:44 +0000</pubDate><title><![CDATA[CONTACTO]]></title><url><![CDATA[contacto]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[CONTACTO]]></menu><menuOrder><![CDATA[5]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
+				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
+				&lt;h1&gt;Contacto&lt;/h1&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;barraceleste&quot;&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
+		&lt;div id=&quot;hometextos&quot;&gt;
+(% cbcontact %)
+		&lt;/div&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
