@@ -25,8 +25,11 @@
 					<!-- tengo que ver que onda este menu -->
 					<?php get_navigation(get_page_slug(FALSE)); ?>
 				</ul>
+				<ul id="submenu_cooperativa">
+					<li class="historia"><a href="?id=historia" title="HISTORIA">HISTORIA</a></li>
+				</ul>
 				<ul id="submenu">
-					<li class="tanques"><a href="?id=tanques" title="TANQUES">TANQUES </a></li>
+					<li class="tanques"><a href="?id=tanques" title="TANQUES">TANQUES</a></li>
 					<li class="gestion"><a href="?id=gestion" title="GESTIÓN">GESTIÓN</a></li>
 					<li class="plantas"><a href="?id=plantas" title="PLANTAS">PLANTAS</a></li>
 				</ul>

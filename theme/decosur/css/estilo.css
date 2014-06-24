@@ -23,24 +23,44 @@ body, html {
 	right: -26px;
 	top: 85px;
 }
-#submenu li, #menu li {
+#submenu li, #menu li, #submenu_cooperativa li {
 	list-style: none;
 	float: left;
 }
+#submenu , #submenu_cooperativa {
+	display: none;
+}
+
+#cooperativa * #submenu_cooperativa, #historia * #submenu_cooperativa {
+	display: block;
+}
+
+#historia .imagenes1 {
+	display: block;
+	margin-top: 73px;
+	margin-bottom: 56px;
+	width: 406px;
+	height: 226px;
+	background: url(../img/historia_imagen.png);
+}
+
+#gestion * #submenu, #tanques * #submenu, #plantas * #submenu {
+	display: block;
+}
 
 /* nota servicios en el css del menu se llama gestion */
-.gestion, .gestion, .noticias, .cooperativa, .clientes, .plantas,  .tanques {
+.gestion, .noticias, .cooperativa, .clientes, .plantas, .tanques  {
 	border-right: 1px dotted #4d4d4d;
 	padding-right: 14px;
 	padding-left:14px;
 }
 
-#submenu li a, #menu li a {
+#submenu li a, #menu li a,  #submenu_cooperativa  li a {
 	color: #4d4d4d;
 	text-decoration: none;
 }
 
-#menu li a:hover, #submenu li a:hover, #menu li.active a {
+#menu li a:hover, #submenu li a:hover, #menu li.active a, #submenu_cooperativa li a:hover {
 	color: #ff3511;
 }
 
@@ -68,6 +88,16 @@ body, html {
 	top: 105px;
 	border-left: 1px dotted #4d4d4d;
 	padding-left: 4px;
+}
+
+#menusuperior #submenu_cooperativa {
+	position: absolute;
+	right: 470px;
+	top: 105px;
+	border-right: 1px dotted #4d4d4d;
+	border-left: 1px dotted #4d4d4d;
+	padding-right: 14px;
+	padding-left: 14px;
 }
 
 
@@ -184,6 +214,11 @@ body, html {
 	background: url(../img/banner/cooperativa.jpg) no-repeat center 0;
 }
 
+#tanques * #homebanner .imagen {
+	background: url(../img/banner/tanques.jpg) no-repeat center 0;
+}
+
+
 /* home */
 #index #homebanner {
 	background: #2c89a0;
@@ -256,6 +291,76 @@ body, html {
 	padding-bottom: 201px;	
 }
 
+#clientes * .s01 div, #clientes * .s02 div, #clientes * .s03 div {
+	height: 100px;
+	width: 100%;
+}
+
+#clientes * .s01 , #clientes * .s02 , #clientes * .s03 {
+	padding-top: 60px;
+}
+
+
+/* Clientes A */
+#clientes #a01 {
+	background: url(../img/clientes/clientes_a01.png) no-repeat center;
+}
+#clientes #a02 {
+	background: url(../img/clientes/clientes_a02.jpg) no-repeat center;
+}
+#clientes #a03 {
+	background: url(../img/clientes/clientes_a03.png) no-repeat center;
+}
+#clientes #a04 {
+	background: url(../img/clientes/clientes_a04.png) no-repeat center;
+}
+#clientes #a05 {
+	background: url(../img/clientes/clientes_a05.png) no-repeat center;
+}
+
+/* Clientes B */
+#clientes #b01 {
+	background: url(../img/clientes/clientes_b01.png) no-repeat center;
+}
+#clientes #b02 {
+	background: url(../img/clientes/clientes_b02.jpg) no-repeat center;
+	height: 130px;
+}
+#clientes #b03 {
+	background: url(../img/clientes/clientes_b03.png) no-repeat center;
+	height: 170px;
+}
+#clientes #b04 {
+	background: url(../img/clientes/clientes_b04.png) no-repeat center;
+}
+#clientes #b05 {
+	background: url(../img/clientes/clientes_b05.png) no-repeat center;
+}
+
+/* Clientes C */
+#clientes #c01 {
+	background: url(../img/clientes/clientes_c01.png) no-repeat center;
+}
+#clientes #c02 {
+	background: url(../img/clientes/clientes_c02.png) no-repeat center;
+}
+#clientes #c03 {
+	background: url(../img/clientes/clientes_c03.png) no-repeat center;
+}
+#clientes #c04 {
+	background: url(../img/clientes/clientes_c04.png) no-repeat center;
+}
+#clientes #c05 {
+	background: url(../img/clientes/clientes_c05.png) no-repeat center;
+}
+
+#tanques * #hometextos {
+	padding-bottom: 65px;	
+}
+
+#plantas * #hometextos {
+	padding-bottom: 45px;	
+}
 
 /* plantas > */
 #hometextos {
@@ -282,6 +387,25 @@ body, html {
 	margin-top: 14px;	
 }
 
+#tanques p {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+h3 * {
+	font-family: "Yanone Kaffeesatz", impact, serif;
+	font-size: 24px;
+	color: #87cdde;
+	font-weight: normal;
+}
+#tanques * table+h2 {
+	margin-top: 58px;
+}
+
+#tanques h2 * {
+	text-align: left;	
+}
+
 #hometextos ul li {
 	margin-left: 17px;	
 	padding-left: 17px;	
@@ -294,12 +418,12 @@ body, html {
 #hometextos h2 {
 	font-size: 24px;
 	font-family: "Alegreya Sans SC", sans;
+	font-weight: normal;
 	background: #004455;
 	padding-top: 18px;
 	padding-bottom: 14px;
 	margin: 0;
 }
-
 #gestion #hometextos h2 {
 	font-size: 20px;
 	font-family: sans, Arial;
@@ -395,9 +519,6 @@ body, html {
 	padding-bottom: 15px;
 }
 
-#cooperativa * #barraceleste {
-	height: 62px;  /* esto se necesita en cooperativa */
-}
 #homesolapas a, #barraceleste span {
 	display: inline-block;
 	margin: 0;
@@ -424,6 +545,33 @@ body, html {
 }
 #barraceleste * small {
 	font-size: 24px;
+}
+
+
+#cooperativa * #barraceleste {
+	height: 62px;  /* esto se necesita en cooperativa */
+}
+
+#tanques * #barraceleste,  #plantas * #barraceleste{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 125px;  /* esto se necesita en cooperativa */
+}
+
+
+#historia * #barraceleste {
+	font-family: "Alegreya Sans SC";
+	text-align: left;
+}
+
+#historia * h2 {
+	text-align: left;
+	font-size: 16px;
+}
+
+#historia #hometextos {
+	padding-bottom: 52px;
+	line-height: 1.5;
 }
 
 #homesolapas a.gestion,	#homesolapas a.tanques, #barraceleste .comienzo {
@@ -618,15 +766,31 @@ td {
 	padding-bottom: 62px;
 }
 
-/* gestion */
+#plantas #hometextos h1 {
+	/* area para se vean los iconos del fondo */
+	margin-top: 320px;	
+}
+
+/* plantas */
+#plantas .imagenes3 .s01 {
+	background: url('../img/imagenes3/planta_s01.jpg');
+}
+#plantas .imagenes3 .s02 {
+	background: url('../img/imagenes3/planta_s02.jpg');
+}
+#plantas .imagenes3 .s03 {
+	background: url('../img/imagenes3/planta_s03.jpg');
+}
+
+
 #gestion .imagenes3 .s01 {
-	background: url('../../../images/gestion_s01_capacitacion.jpg');
+	background: url('../img/imagenes3/gestion_s01.jpg');
 }
 #gestion .imagenes3 .s02 {
-	background: url('../../../images/gestion_s02_curso.jpg');
+	background: url('../img/imagenes3/gestion_s02.jpg');
 }
 #gestion .imagenes3 .s03 {
-	background: url('../../../images/gestion_s03laboratorio.jpg');
+	background: url('../img/imagenes3/gestion_s03.jpg');
 }
 
 /* cooperativa */
@@ -776,6 +940,10 @@ td {
 	height: auto;
 	background: #216778;
 	padding-left: 25px;
+	background: url(../img/icono/mas.png) 11px 6px no-repeat #216778;
+}
+#noticias p .menos {
+	background-image: url(../img/icono/menos.png);
 }
 
 #noticias p span,  #noticias p .menos {
@@ -831,31 +999,6 @@ td {
 
 /* contactos --> */
 
-
-#cbform { width: 100%; }
-
-.noshow { display: none;  }
-
-.cbclear { clear: both; } 
-.cbclearleft { clear: left;}
-
-.cbleft { float: left; text-align: right; width: 85px;}
-.cbright { background-color: #316594; color: #FFFFFF; font-size: 14px; margin-bottom: 6px; margin-left: 5px; width: 400px; }
-.cbrightV { background-color: #316594; color: #FFFFFF; font-size: 14px; margin-bottom: 6px; margin-left: 90px; width: 400px; }
-#cbform textarea { font-size: 14px; height: 100px; margin-left: 5px; width: 400px; }
-
-.cbcaptcha { padding-left: 90px; width: 400px; float: left; }
- #cbform .cbcaptcha .cbcaptchaimg { float: left; margin-top: 0px; margin-bottom: 5px; width: 170px; }
-.cbcaptcha_label { font-size: 16px; width: 390px; float: left; margin-top: 5px; }
-.cbcaptcha_input { background-color: #316594; color: #FFFFFF; float: left; font-size:20px; margin-left: 5px; margin-top: 3px; text-align: center; width: 90px; }
-.cbcaptcha_write { font-size: 12px; font-style: italic; margin-left: 175px; margin-top: -10px; position: absolute; }
-
-.cbreload { float: left; font-size: 18px; margin-left: 5px; margin-top: 1px; width: 100px; }
-.cbreload_label { font-size: 10px; font-style: italic; }
-
-.cbpadleft { padding-left: 90px; }
-
-.cbsend { font-size: 18px; margin-left: 2px; width: 75px; }
 
 
 
