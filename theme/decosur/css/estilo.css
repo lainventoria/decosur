@@ -7,7 +7,6 @@ body, html {
 	padding: 0;
 	background: #f9f9f9;
     font-family: "Verdana", "Arial", sans;
-    font-family: Arial,Helvetica,sans-serif;
 }
 /* menu */
 #menusuperior {
@@ -148,6 +147,11 @@ body, html {
 	background: url(../img/bg/index.png) center bottom no-repeat #216778;	
 }
 
+#clientes #hometextos {
+	background: url(../img/bg/clientes.png) center bottom no-repeat #216778;	
+}
+
+
 #plantas #contenido {
 	background: url(../img/bg/plantasbg.png) center bottom no-repeat #216778;
 }
@@ -155,6 +159,10 @@ body, html {
 
 #cooperativa #contenido {
 	background: url(../img/bg/cooperativa.png) center bottom no-repeat #216778;
+}
+
+#contacto #hometextos {
+	background: url(../img/bg/contacto.png) center -25px no-repeat #216778;
 }
 
 #gestion #contenido {
@@ -406,6 +414,8 @@ h3 * {
 	text-align: left;	
 }
 
+
+
 #hometextos ul li {
 	margin-left: 17px;	
 	padding-left: 17px;	
@@ -424,10 +434,13 @@ h3 * {
 	padding-bottom: 14px;
 	margin: 0;
 }
+
+
 #gestion #hometextos h2 {
-	font-size: 20px;
+	font-size: 16px;
 	font-family: sans, Arial;
 	text-align: left;
+	color: rgb(196,223,230);
 }
 
 #hometextos h3 {
@@ -838,6 +851,8 @@ td {
 #gestion * .imagenes2 {
 	margin-top: 50px;	
 }
+
+
 .imagenes2 .imagen {
 	position: absolute;
 	top: 0;
@@ -867,6 +882,8 @@ td {
 #gestion #contenido {
 	padding-bottom: 140px;
 }
+
+
 
 #noticias #contenido {
 	padding-bottom: 80px;
@@ -998,10 +1015,62 @@ td {
 
 
 /* contactos --> */
+form {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 880px;
+	padding-bottom: 165px;
+	font-weight: normal;
+}
+form * {
+	font-family: "Ubuntu", ubuntu, sans;
+	font-size: 20px;
+}
+.field {
+	width: 100%;
+	border-bottom: 1px dashed #fff;	
+	padding-top: 54px;
+}
+.textarea {
+	border-bottom: 0;
+	font-size: 16px;
+}
+label {
+	float: left;
+	padding-left: 13px;	
+}
+input[type=text] {
+	font-size: 16px;
+	width: 763px;
+	height: 100%;
+	border: none;
+	background: transparent;
+	color: #fff;
+	padding-bottom: 4px;
+}
+textarea {
+	width: 100%;
+	height: 240px;
+	background: transparent;
+	border: none;
+	padding: 16px;
+}
 
-
-
-
-
+input[type=submit] { 
+	width: 130px;
+	height: 40px;
+	color: rgb(250,28,14);
+	font-size: 18px;
+	text-decoration: uppercase;
+	right: 0;
+	top: 60px;
+	background: #fff;
+	border: 0;
+	border-radius: 6px;
+	margin-top: 60px;
+	float: right;
+	box-shadow: 1px 5px 3px rgb(29,87,100);
+}
 
 /* <-- contactos */

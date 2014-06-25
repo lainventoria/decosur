@@ -17,7 +17,7 @@ $p01contact_lang = array(
 'captcha' => 'Captcha',
 'reload'  => 'Recargar',
 'askcopy' => 'Enviar copia por email',
-'send'    => 'Enviar',
+'send'    => 'ENVIAR',
 
 // email words
 'nofrom'   => 'Anonimo',
