@@ -1,3 +1,4 @@
+data/other/logs/
 *.svg
 .DS_*
 .ttf
