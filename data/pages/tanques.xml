@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Thu, 19 Jun 2014 19:10:57 -0300</pubDate><title><![CDATA[TANQUES]]></title><url><![CDATA[tanques]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[TANQUES]]></menu><menuOrder><![CDATA[7]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Fri, 11 Jul 2014 01:55:36 -0300</pubDate><title><![CDATA[TANQUES]]></title><url><![CDATA[tanques]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[TANQUES]]></menu><menuOrder><![CDATA[7]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
 				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Tanques&lt;/h1&gt;
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
@@ -42,7 +42,7 @@ Se posee un parque de tanques calefaccionados además de tanques especiales, con
 					&lt;/table&gt;
 				&lt;h2&gt;&lt;div class=&quot;contenedor&quot;&gt;Detalle de Tanques  y Capacidadess&lt;/div&gt;&lt;/h2&gt;
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
-				&lt;h3&gt;&lt;div class=&quot;contenedor&quot;&gt;Planta 2&lt;/div&gt;&lt;/h3&gt;
+				&lt;h3&gt;&lt;div class=&quot;contenedor planta2&quot;&gt;Planta 2&lt;/div&gt;&lt;/h3&gt;
 					&lt;table&gt;
 						&lt;thead&gt;
 							&lt;tr&gt;&lt;th&gt;Tanque Nº&lt;/th&gt; &lt;th&gt;Capacidad m3&lt;/th&gt; &lt;th&gt;Observaciones&lt;/th&gt;&lt;/tr&gt;

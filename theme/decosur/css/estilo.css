@@ -37,7 +37,7 @@ body, html {
 #historia .imagenes1 {
 	display: block;
 	margin-top: 73px;
-	margin-bottom: 56px;
+	margin-bottom: 20px;
 	width: 406px;
 	height: 226px;
 	background: url(../img/historia_imagen.png);
@@ -48,7 +48,7 @@ body, html {
 }
 
 /* nota servicios en el css del menu se llama gestion */
-.gestion, .noticias, .cooperativa, .clientes, .plantas, .tanques  {
+.gestion, .noticias, .cooperativa, .clientes, .plantas, .tanques, .coop_cooperativa, .historia  {
 	border-right: 1px dotted #4d4d4d;
 	padding-right: 14px;
 	padding-left:14px;
@@ -91,12 +91,10 @@ body, html {
 
 #menusuperior #submenu_cooperativa {
 	position: absolute;
-	right: 470px;
+	right: 400px;
 	top: 105px;
-	border-right: 1px dotted #4d4d4d;
 	border-left: 1px dotted #4d4d4d;
-	padding-right: 14px;
-	padding-left: 14px;
+	padding-left: 0;
 }
 
 
@@ -109,7 +107,7 @@ body, html {
 	position: absolute;
 	top: 0;
 	display: block;
-	background: url(../img/logo.png);
+	background: url(../img/logo.png) no-repeat;
 	height: 66px;
 	width: 215px;
 	margin-top: 58px;
@@ -148,14 +146,17 @@ body, html {
 }
 
 #clientes #hometextos {
-	background: url(../img/bg/clientes.png) center bottom no-repeat #216778;	
+	background: url(../img/bg/clientes.png) center -36px no-repeat #216778;	
 }
 
 
 #plantas #contenido {
-	background: url(../img/bg/plantasbg.png) center bottom no-repeat #216778;
+	background: url(../img/bg/plantasbg.png) center 360px no-repeat #216778;
 }
 
+#historia #contenido {
+	background: url(../img/bg/cooperativa.png) center 100px no-repeat #216778;
+}
 
 #cooperativa #contenido {
 	background: url(../img/bg/cooperativa.png) center bottom no-repeat #216778;
@@ -167,17 +168,17 @@ body, html {
 
 #gestion #contenido {
 	position: relative;
-	background: url(../img/bg/gestion.png) center top no-repeat #216778;
+	background: url(../img/bg/gestion.png) center 50px no-repeat #216778;
 	height: 1342px;
 }
 
 #gestionfg {
 	position: absolute;
-	bottom: 0;
+	bottom: -55px;
 	left: 0;
 	width: 100%;
 	height: 537px;
-	background: url(../img/bg/gestionfg.png) center top no-repeat;
+	background: url(../img/bg/gestionfg.png) center -25px no-repeat;
 }
 #cooperativa #contenido p {
 	line-height: 1.5;
@@ -187,16 +188,21 @@ body, html {
 #homebanner {
 	background: #004455;
 }
+
 #plantas #homebanner {
 	height: 417px;
 }
+
+
+
+
 #homebanner h1 {
 	widht: 100%;
 	font-size: 89px; 
 	font-family: "Ubuntu", sans;
 	text-decoration: none;
 	font-weight: normal;
-	color: #fff;
+	color: rgb(213,246,255);
 	height: 132px;
 	margin: 0;
 	padding: 0;
@@ -279,13 +285,22 @@ body, html {
 	left: 0;
 	top: 31px;
 }
-#homeanimacionbg {
+#homeanimacionfg {
 	position: absolute;
 	right: -140px;
 	bottom: -2px;
 	width: 512px;
 	height: 96px;
 	background: url(../img/homeanimacionbg.png);
+}
+
+#homeanimacionbg {
+	position: absolute;
+	right: -70px;
+	bottom: -2px;
+	width: 512px;
+	height: 90px;
+	background: url(../img/tanque/tanque.gif) no-repeat center center;
 }
 
 #index #hometextos {
@@ -305,7 +320,7 @@ body, html {
 }
 
 #clientes * .s01 , #clientes * .s02 , #clientes * .s03 {
-	padding-top: 60px;
+	padding-top: 70px;
 }
 
 
@@ -367,7 +382,7 @@ body, html {
 }
 
 #plantas * #hometextos {
-	padding-bottom: 45px;	
+	padding-bottom: 30px;	
 }
 
 /* plantas > */
@@ -430,17 +445,29 @@ h3 * {
 	font-family: "Alegreya Sans SC", sans;
 	font-weight: normal;
 	background: #004455;
+	color: rgb(129,176,188);
 	padding-top: 18px;
 	padding-bottom: 14px;
 	margin: 0;
 }
-
+#gestion #barraceleste {
+	font-family: "Alegreya Sans SC", sans;
+	text-align: left;
+	color: rgb(20,86,103);
+}
 
 #gestion #hometextos h2 {
 	font-size: 16px;
 	font-family: sans, Arial;
 	text-align: left;
 	color: rgb(196,223,230);
+}
+
+
+#plantas * h2 {
+	margin-top: 25px;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 #hometextos h3 {
@@ -533,6 +560,7 @@ h3 * {
 }
 
 #homesolapas a, #barraceleste span {
+		font-family: "Yanone Kaffeesatz", impact, serif;
 	display: inline-block;
 	margin: 0;
 	padding: 0;
@@ -543,6 +571,7 @@ h3 * {
 	color: #06262e;
 	text-align: center;
 	padding-top: 71px;
+	border: 0;
 }
 #barraceleste span {
 	width: 150px;
@@ -575,11 +604,15 @@ h3 * {
 #historia * #barraceleste {
 	font-family: "Alegreya Sans SC";
 	text-align: left;
+	color: rgb(8,72,89);
+	
 }
 
 #historia * h2 {
 	text-align: left;
 	font-size: 16px;
+	padding: 0;
+	margin-top: 36px;
 }
 
 #historia #hometextos {
@@ -645,8 +678,8 @@ h3 * {
 
 #coopdisenio {
 	position: absolute;
-	bottom: 5px;
-	right: 5px;
+	bottom: 15px;
+	right: 15px;
 	display: block;
 	background: url('../img/cooperativa_disenio.png');
 	width: 114px;
@@ -703,6 +736,8 @@ table+table {
 	margin-left: 35px;
 }
 
+
+
 thead {
 	background: #87cdde;
 	color: #004455;
@@ -721,8 +756,14 @@ td, th {
 
 td {
 	width: 140px;
+	/* es el minimo para la tabla a 100% */
 }
 
+.planta2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 430px;
+}
 
 /* gestion --> */
 
@@ -767,7 +808,8 @@ td {
 	left: 0;
 }
 .imagenes3 .s02 {
-	left: 301px;
+	/*left: 329px; */
+	left: 305px;
 }
 .imagenes3 .s03 {
 	right: 0;
@@ -795,6 +837,9 @@ td {
 	background: url('../img/imagenes3/planta_s03.jpg');
 }
 
+#gestion .imagenes3 {
+	margin-top: 30px;	
+}
 
 #gestion .imagenes3 .s01 {
 	background: url('../img/imagenes3/gestion_s01.jpg');
@@ -921,10 +966,10 @@ td {
 #noticias #hometextos h2 {
 	font-size: 20px;
 	font-family: "Alegreya Sans SC", sans;
-	background: #004455;
 	padding-top: 15px;
 	padding-bottom: 13px;
 	margin: 0;
+	color: #fff;
 	background: #2c89a0;
 	text-align: left;
 }
@@ -941,7 +986,7 @@ td {
 	position: relative;
 }
 
-#noticia1:target, #noticia2:target,  #noticia3:target {
+#noticia1:target p , #noticia2:target p ,  #noticia3:target p {
 	height: 360px;
 	padding-left: 380px;
 	width: 500px;
@@ -968,27 +1013,27 @@ td {
 }
 
 
-#noticia1 {
+#noticia1 p {
 	background: url(../img/noticias/noticia_01s.jpg) 0 0 no-repeat;
 }
 
-#noticia1:target {
+#noticia1:target p {
 	background: url(../img/noticias/noticia_01g.jpg) 0 0 no-repeat;
 }
 
-#noticia2 {
+#noticia2 p {
 	background: url(../img/noticias/noticia_02s.jpg) 0 0 no-repeat;
 }
 
-#noticia2:target {
+#noticia2:target p {
 	background: url(../img/noticias/noticia_02g.jpg) 0 0 no-repeat;
 }
 
-#noticia3 {
+#noticia3 p {
 	background: url(../img/noticias/noticia_03s.jpg) 0 0 no-repeat;
 }
 
-#noticia3:target {
+#noticia3:target p {
 	background: url(../img/noticias/noticia_03g.jpg) 0 0 no-repeat;
 }
 
@@ -1011,6 +1056,17 @@ td {
 	display: block;
 	width: 100%;
 	height: 100%;
+}
+
+
+
+#plantas p {
+	padding-top: 0;
+	margin-top: 16px;
+}
+
+#plantas #hometextos {
+	padding-top: 20px;
 }
 
 
@@ -1074,3 +1130,16 @@ input[type=submit] {
 }
 
 /* <-- contactos */
+
+
+/* como llegar */
+
+#como_llegar_pop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: url(../img/como_llegar_pop.png) center center no-repeat;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}

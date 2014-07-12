@@ -1,0 +1,12 @@
+@font-face {
+	font-family: "Alegreya Sans SC";
+	src: local("?"), url("Alegreya Sans SC_regular.ttf"), url("Alegreya Sans SC_100.ttf"), url("Alegreya Sans SC_100italic.ttf"), url("Alegreya Sans SC_300.ttf"), url("Alegreya Sans SC_300italic.ttf"), url("Alegreya Sans SC_500.ttf"), url("Alegreya Sans SC_500italic.ttf"), url("Alegreya Sans SC_700.ttf"), url("Alegreya Sans SC_700italic.ttf"), url("Alegreya Sans SC_800.ttf"), url("Alegreya Sans SC_800italic.ttf"), url("Alegreya Sans SC_900.ttf"), url("Alegreya Sans SC_900italic.ttf"), url("Alegreya Sans SC_italic.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Yanone Kaffeesatz";
+	src: local("?"), url("Yanone Kaffeesatz_regular.ttf"), url("Yanone Kaffeesatz_200.ttf"), url("Yanone Kaffeesatz_300.ttf"), url("Yanone Kaffeesatz_700.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ubuntu";
+	src: local("?"), url("Yanone Kaffeesatz_regular.ttf"), url("Yanone Kaffeesatz_200.ttf"), url("Yanone Kaffeesatz_300.ttf"), url("Yanone Kaffeesatz_700.ttf") format("truetype");
+}

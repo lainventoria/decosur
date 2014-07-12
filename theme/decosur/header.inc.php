@@ -15,6 +15,7 @@
 	<title><?php get_page_clean_title(); ?> - <?php get_site_name(); ?></title>
 	<link type="text/css" rel="stylesheet" href="<?php get_theme_url(); ?>/css/estilo.css" />
 	<?php get_header(); ?>
+	<script src="<?php get_theme_url(); ?>/assets/js/jquery-1.10.2.js"></script>
 </head>
 	<body id="<?php get_page_slug(); ?>" >
 		<div id="menusuperior">
@@ -26,6 +27,7 @@
 					<?php get_navigation(get_page_slug(FALSE)); ?>
 				</ul>
 				<ul id="submenu_cooperativa">
+					<li class="coop_cooperativa"><a href="?id=cooperativa" title="cooperativa">COOPERATIVA</a></li>
 					<li class="historia"><a href="?id=historia" title="HISTORIA">HISTORIA</a></li>
 				</ul>
 				<ul id="submenu">

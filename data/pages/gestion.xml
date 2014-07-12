@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Thu, 19 Jun 2014 06:37:45 -0300</pubDate><title><![CDATA[GESTIÓN]]></title><url><![CDATA[gestion]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[SERVICIOS]]></menu><menuOrder><![CDATA[3]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Fri, 11 Jul 2014 02:06:44 -0300</pubDate><title><![CDATA[GESTIÓN]]></title><url><![CDATA[gestion]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[SERVICIOS]]></menu><menuOrder><![CDATA[3]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
 			&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Gestión&lt;/h1&gt;
 			&lt;/div&gt;
@@ -25,11 +25,11 @@
 				&lt;h1&gt;Gestión Ambiental&lt;/h1&gt;
 				&lt;p&gt;Cooperativa de Trabajo Decosur ha puesto en marcha el Programa de Reconversión Industrial PRI acordado con la Autoridad de Cuenca Matanza Riachuelo (ACUMAR) para la preservación de los recursos naturales complementando la política de gestión ambiental de la entidad.&lt;br /&gt;
 Dentro del mismo se han dispuesto tareas de monitoreo, prevención y control de la actividad, y se han construido nuevas instalaciones de monitoreo y tratamiento de desagües pluviales. &lt;/p&gt;
+				&lt;div id=&quot;gestionfg&quot;&gt;&lt;/div&gt;
 				&lt;div class=&quot;contenedor imagenes2&quot;&gt;
 					&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 					&lt;div class=&quot;imagen s01&quot; &gt;&lt;span&gt;Ensayo de espuma en muelle&lt;/span&gt;&lt;/div&gt;
 					&lt;div class=&quot;imagen s03&quot; &gt;&lt;span&gt;Ensayo hidrantes&lt;/span&gt;&lt;/div&gt;
 					&lt;div class=&quot;sombra2&quot;&gt;&lt;/div&gt;
 				&lt;/div&gt;
-				&lt;div id=&quot;gestionfg&quot;&gt;&lt;/div&gt;
 		&lt;/div&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
