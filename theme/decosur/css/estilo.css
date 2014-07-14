@@ -1,12 +1,18 @@
 * {
 	/* border: 1px solid red; */
 }
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+sans-serif+SC);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
 body, html {
 	min-width: 880px;
 	margin: 0;
 	padding: 0;
 	background: #f9f9f9;
-    font-family: "Verdana", "Arial", sans;
+    font-family: "Verdana", "Arial", "Droid Sans", sans-serif;
 }
 /* menu */
 #menusuperior {
@@ -15,7 +21,7 @@ body, html {
 	width: 100%;
 	background: #f9f9f9;
 	font-size: 13px;
-	font-family: "Ubuntu", ubuntu, sans;
+	font-family: "Ubuntu", ubuntu, "Droid Sans", sans-serif;
 }
 #menusuperior #menu {
 	position: absolute;
@@ -131,7 +137,7 @@ body, html {
 	heght: 11px;
 	background: #ff3511;
 	font-size: 10px;
-	font-family: ubuntu, sans;
+	font-family: ubuntu, "Droid Sans", sans-serif;
 	text-align: right;
 	padding-bottom: 4px;
 	padding-right: 4px;
@@ -166,7 +172,7 @@ body, html {
 }
 
 #historia #contenido {
-	background: url(../img/bg/cooperativa.png) center 100px no-repeat #216778;
+	background: url(../img/bg/cooperativa.png) center 150px no-repeat #216778;
 }
 
 #cooperativa #contenido {
@@ -185,7 +191,7 @@ body, html {
 
 #gestionfg {
 	position: absolute;
-	bottom: -55px;
+	bottom: -35px;
 	left: 0;
 	width: 100%;
 	height: 537px;
@@ -210,7 +216,7 @@ body, html {
 #homebanner h1 {
 	widht: 100%;
 	font-size: 89px; 
-	font-family: "Ubuntu", sans;
+	font-family: "Ubuntu", "Droid Sans", sans-serif;
 	text-decoration: none;
 	font-weight: normal;
 	color: rgb(213,246,255);
@@ -264,7 +270,7 @@ body, html {
 #homebanner * .texto1, #homebanner * .texto2 {
 	position: absolute;
 	font-size: 24px;
-	font-family: "Yanone Kaffeesatz", impact, sans-serif;
+	font-family: "Yanone Kaffeesatz", impact, "Droid Sans", sans-serif;
 	background: #2c89a0;
 	padding-left: 96px;
 	padding-right: 12px;
@@ -287,7 +293,7 @@ body, html {
 	display: block;
 	background: #f9f9f9;
 	height: 120px;
-	font-family: "Alegreya Sans SC", sans;
+	font-family: "Alegreya Sans SC", "Droid Sans", sans-serif;
 	font-size: 22px;
 	text-align: left;
 	color: #216778;
@@ -474,7 +480,7 @@ body, html {
 	display: block;
 	position: relative;
 	font-size: 16px;
-	font-family: sans;
+	font-family: sans-serif;
 	padding-top: 21px;
 	text-align: left;
 }
@@ -515,7 +521,7 @@ h3 * {
 
 #hometextos h2 {
 	font-size: 24px;
-	font-family: "Alegreya Sans SC", sans;
+	font-family: "Alegreya Sans SC", "Droid Sans", sans-serif;
 	font-weight: normal;
 	background: #004455;
 	color: rgb(129,176,188);
@@ -524,14 +530,14 @@ h3 * {
 	margin: 0;
 }
 #gestion #barraceleste {
-	font-family: "Alegreya Sans SC", sans;
+	font-family: "Alegreya Sans SC", "Droid Sans", sans-serif;
 	text-align: left;
 	color: rgb(20,86,103);
 }
 
 #gestion #hometextos h2 {
 	font-size: 16px;
-	font-family: sans, Arial;
+	font-family: sans-serif, Arial;
 	text-align: left;
 	color: rgb(196,223,230);
 }
@@ -545,11 +551,11 @@ h3 * {
 
 #hometextos h3 {
 	font-size: 22px;
-	font-family: "Ubuntu", sans;
+	font-family: "Ubuntu", "Droid Sans", sans-serif;
 	text-align: left;
 }
 #hometextos h1 {
-	font-family: "Ubuntu Mono", Ubuntu, sans;
+	font-family: "Ubuntu Mono", Ubuntu, "Droid Sans", sans-serif;
 	font-size: 48px;
 	text-decoration: none;
 	font-weight: normal;
@@ -566,7 +572,7 @@ h3 * {
 	position: absolute;
 	left: 159px;
 	top: 74px;
-	font-family: "Ubuntu Mono", Ubuntu, sans;
+	font-family: "Ubuntu Mono", Ubuntu, "Droid Sans", sans-serif;
 	font-size: 22.2px;
 	text-decoration: none;
 	font-weight: normal;
@@ -580,7 +586,7 @@ h3 * {
 	position: absolute;
 	top: 177px;
 	left: 0;
-	font-family: "Alegreya Sans SC", sans-serif;
+	font-family: "Alegreya Sans SC", "Droid Sans", sans-serif;
 	font-weight: normal;
 	margin: 0;
 	padding: 0;
@@ -597,7 +603,7 @@ h3 * {
 }
 #hometextos .parrafo1 {
 	position: absolute;
-	font-family: sans;
+	font-family: sans-serif;
 	font-size: 11px;
 	top: 216px;
 	left: 0;
@@ -607,7 +613,7 @@ h3 * {
 }
 #hometextos .parrafo2 {
 	position: absolute;
-	font-family: sans;
+	font-family: sans-serif;
 	font-size: 11px;
 	top: 216px;
 	right: 0;
@@ -711,7 +717,7 @@ h3 * {
 }
 #homecaja {
 	position: relative;
-	font-family: "Ubuntu Mono", sans, sans-serif;
+	font-family: "Ubuntu Mono", "Droid Sans", sans-serif, "Droid Sans", sans-serif;
 	font-size: 15px;
 	color: #808080;
 	height: 50px;	
@@ -740,7 +746,7 @@ h3 * {
 	height: 84px;
 	color: #808080;
 	font-size: 12px;
-	font-family: ubuntu, sans;
+	font-family: ubuntu, "Droid Sans", sans-serif;
 	text-align: center;
 	padding-top: 34px;
 }
@@ -949,7 +955,7 @@ td {
 	display: block;
 	position: relative;
 	font-size: 16px;
-	font-family: sans;
+	font-family: sans-serif;
 	padding-top: 0;
 	height: 59px;
 	top: -20px;
@@ -1038,7 +1044,7 @@ td {
 
 #noticias #hometextos h2 {
 	font-size: 20px;
-	font-family: "Alegreya Sans SC", sans;
+	font-family: "Alegreya Sans SC", "Droid Sans", sans-serif;
 	padding-top: 15px;
 	padding-bottom: 13px;
 	margin: 0;
@@ -1154,7 +1160,7 @@ form {
 	font-weight: normal;
 }
 form * {
-	font-family: "Ubuntu", ubuntu, sans;
+	font-family: "Ubuntu", ubuntu, "Droid Sans", sans-serif;
 	font-size: 20px;
 }
 form span {
