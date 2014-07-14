@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Fri, 11 Jul 2014 01:55:36 -0300</pubDate><title><![CDATA[TANQUES]]></title><url><![CDATA[tanques]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[TANQUES]]></menu><menuOrder><![CDATA[7]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Mon, 14 Jul 2014 04:18:31 -0300</pubDate><title><![CDATA[TANQUES]]></title><url><![CDATA[tanques]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[TANQUES]]></menu><menuOrder><![CDATA[7]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
 				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Tanques&lt;/h1&gt;
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
-				&lt;div class=&quot;imagen&quot;&gt;&lt;/div&gt;
+				&lt;div class=&quot;imagen&quot;&gt;
+				&lt;div id=&quot;colder&quot;&gt; 
+						&lt;div id=&quot;featured&quot;&gt; 
+
+				            &lt;img src=&quot;theme/decosur/img/banner/tanques.jpg&quot; /&gt;
+				            &lt;img src=&quot;theme/decosur/img/banner/tanques1.jpg&quot;  /&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
 			&lt;/div&gt;
 			&lt;div id=&quot;barraceleste&quot;&gt;
 				&lt;div class=&quot;contenedor&quot;&gt;
@@ -25,9 +33,216 @@ Se posee un parque de tanques calefaccionados además de tanques especiales, con
 							&lt;tr&gt;&lt;th&gt;Tanque Nº&lt;/th&gt; &lt;th&gt;Capacidad m3&lt;/th&gt; &lt;th&gt;Observaciones&lt;/th&gt;&lt;/tr&gt;
 						&lt;/thead&gt;
 						&lt;tbody&gt;
-							&lt;tr&gt;&lt;td&gt;1&lt;/td&gt; &lt;td&gt;2900&lt;/td&gt; &lt;td&gt;Calefacción&lt;/td&gt;&lt;/tr&gt;
-							&lt;tr&gt;&lt;td&gt;2&lt;/td&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;
-							&lt;tr&gt;&lt;td&gt;3&lt;/td&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;
+&lt;TR&gt;
+		&lt;TD&gt;
+			1
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			2900
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			2
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			2900
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			3
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			1410
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			4
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			728
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			5
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			731
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			6
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			722
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Inhertizado
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			7
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			741
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			8
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			744
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			9
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			742
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			10
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			713
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			11
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			744
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			12
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			742
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			13
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			168
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			14
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			92
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			15
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			93
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			16
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			78
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			17
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			49
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			18
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			63
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			19
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			59
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+
 						&lt;/tbody&gt;
 					&lt;/table&gt;
 					&lt;table&gt;
@@ -35,9 +250,217 @@ Se posee un parque de tanques calefaccionados además de tanques especiales, con
 							&lt;tr&gt;&lt;th&gt;Tanque Nº&lt;/th&gt; &lt;th&gt;Capacidad m3&lt;/th&gt; &lt;th&gt;Observaciones&lt;/th&gt;&lt;/tr&gt;
 						&lt;/thead&gt;
 						&lt;tbody&gt;
-							&lt;tr&gt;&lt;td&gt;1&lt;/td&gt; &lt;td&gt;2900&lt;/td&gt; &lt;td&gt;Calefacción&lt;/td&gt;&lt;/tr&gt;
-							&lt;tr&gt;&lt;td&gt;2&lt;/td&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;
-							&lt;tr&gt;&lt;td&gt;3&lt;/td&gt; &lt;td&gt;4&lt;/td&gt; &lt;td&gt;4&lt;/td&gt;&lt;/tr&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			20
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			50
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			21
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			50
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			22
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			100
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Ac.
+			Inox.
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			24
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			727
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			25
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			800
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			26
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			744
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			27
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			703
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			28
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			391
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			28
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			365
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			30
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			308
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			31
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			358
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			32
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			131
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			33
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			131
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			34
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			875
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			35
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			270
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			36
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			1040
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			37
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			84
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			38
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			84
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			39
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			98
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			Calefacción
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+
 						&lt;/tbody&gt;
 					&lt;/table&gt;
 				&lt;h2&gt;&lt;div class=&quot;contenedor&quot;&gt;Detalle de Tanques  y Capacidadess&lt;/div&gt;&lt;/h2&gt;
@@ -48,9 +471,40 @@ Se posee un parque de tanques calefaccionados además de tanques especiales, con
 							&lt;tr&gt;&lt;th&gt;Tanque Nº&lt;/th&gt; &lt;th&gt;Capacidad m3&lt;/th&gt; &lt;th&gt;Observaciones&lt;/th&gt;&lt;/tr&gt;
 						&lt;/thead&gt;
 						&lt;tbody&gt;
-							&lt;tr&gt;&lt;td&gt;1&lt;/td&gt; &lt;td&gt;2900&lt;/td&gt; &lt;td&gt;Calefacción&lt;/td&gt;&lt;/tr&gt;
-							&lt;tr&gt;&lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
-							&lt;tr&gt;&lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			1
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			1200
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			2
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			7200
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+	&lt;TR&gt;
+		&lt;TD&gt;
+			3
+		&lt;/TD&gt;
+		&lt;TD&gt;
+			7200
+		&lt;/TD&gt;
+		&lt;TD&gt;
+
+		&lt;/TD&gt;
+	&lt;/TR&gt;
+
 						&lt;/tbody&gt;
 					&lt;/table&gt;
 			&lt;/div&gt;

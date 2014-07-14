@@ -28,7 +28,7 @@ Teléfono (54 11) 4222-9240 / 4201-0922 - <br /> <a href="mailto:administracion@
 						opacity: 0,
 						left: "+=150",
 						}, 3000, function() {
-							$(this).html("Terminal Portuaria <br />Tanques fiscales ");
+							$(this).html("<span class='naranja'>Terminal Portuaria <br />Tanques fiscales </span>");
 						}).animate({
 						left: "-=150",
 						}, 0).animate({
@@ -49,6 +49,14 @@ Teléfono (54 11) 4222-9240 / 4201-0922 - <br /> <a href="mailto:administracion@
 						})
 				}
 				loop_homeanimaciontexto();
+				$( ".imagen .slide" ).click(function() {
+					$( "#como_llegar_pop" ).fadeOut("slow");
+				});
+				$(window).load(function() {
+				$('#featured').orbit({
+				  animation: 'fade',animationSpeed: 400, timer: true, advanceSpeed: 10000
+				});
+			});
 				/*
 			  $(".mas").mouseup(function(event){
 			    var offset = $($(this).attr('href')).offset().top;

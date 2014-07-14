@@ -178,7 +178,7 @@ body, html {
 	left: 0;
 	width: 100%;
 	height: 537px;
-	background: url(../img/bg/gestionfg.png) center -25px no-repeat;
+	background: url(../img/bg/gestionfg.png) center 0 no-repeat;
 }
 #cooperativa #contenido p {
 	line-height: 1.5;
@@ -212,12 +212,19 @@ body, html {
 
 
 #homebanner .imagen {
-	widht: 100%;
+	width: 100%;
 	height: 261px;
-	widht: 285px;
 	padding: 0;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
+	overflow: hidden;
+}
+#homebanner #colder {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 961px;
 }
 
 #plantas * #homebanner .imagen {
@@ -322,7 +329,9 @@ body, html {
 #clientes * .s01 , #clientes * .s02 , #clientes * .s03 {
 	padding-top: 70px;
 }
-
+#clientes * .s02 {
+	left: 330px;	
+}
 
 /* Clientes A */
 #clientes #a01 {
@@ -377,12 +386,65 @@ body, html {
 	background: url(../img/clientes/clientes_c05.png) no-repeat center;
 }
 
+/* Clientes A */
+#clientes #a01:hover {
+	background: url(../img/clientes/color/clientes_a01.png) no-repeat center;
+}
+#clientes #a02:hover {
+	background: url(../img/clientes/color/clientes_a02.jpg) no-repeat center;
+}
+#clientes #a03:hover {
+	background: url(../img/clientes/color/clientes_a03.png) no-repeat center;
+}
+#clientes #a04:hover {
+	background: url(../img/clientes/color/clientes_a04.png) no-repeat center;
+}
+#clientes #a05:hover {
+	background: url(../img/clientes/color/clientes_a05.png) no-repeat center;
+}
+
+/* Clientes B */
+#clientes #b01:hover {
+	background: url(../img/clientes/color/clientes_b01.png) no-repeat center;
+}
+#clientes #b02:hover {
+	background: url(../img/clientes/color/clientes_b02.jpg) no-repeat center;
+	height: 130px;
+}
+#clientes #b03:hover {
+	background: url(../img/clientes/color/clientes_b03.png) no-repeat center;
+	height: 170px;
+}
+#clientes #b04:hover {
+	background: url(../img/clientes/color/clientes_b04.png) no-repeat center;
+}
+#clientes #b05:hover {
+	background: url(../img/clientes/color/clientes_b05.png) no-repeat center;
+}
+
+/* Clientes C */
+#clientes #c01:hover {
+	background: url(../img/clientes/color/clientes_c01.png) no-repeat center;
+}
+#clientes #c02:hover {
+	background: url(../img/clientes/color/clientes_c02.png) no-repeat center;
+}
+#clientes #c03:hover {
+	background: url(../img/clientes/color/clientes_c03.png) no-repeat center;
+}
+#clientes #c04:hover {
+	background: url(../img/clientes/color/clientes_c04.png) no-repeat center;
+}
+#clientes #c05:hover {
+	background: url(../img/clientes/color/clientes_c05.png) no-repeat center;
+}
+
 #tanques * #hometextos {
 	padding-bottom: 65px;	
 }
 
 #plantas * #hometextos {
-	padding-bottom: 30px;	
+	padding-bottom: 0;	
 }
 
 /* plantas > */
@@ -987,7 +1049,8 @@ td {
 }
 
 #noticia1:target p , #noticia2:target p ,  #noticia3:target p {
-	height: 360px;
+	min-height: 270px;
+	height: auto;
 	padding-left: 380px;
 	width: 500px;
 }
@@ -1083,6 +1146,11 @@ form * {
 	font-family: "Ubuntu", ubuntu, sans;
 	font-size: 20px;
 }
+form span {
+		position: absolute;
+		right: 0;
+		color: orange;
+	}
 .field {
 	width: 100%;
 	border-bottom: 1px dashed #fff;	
@@ -1128,7 +1196,9 @@ input[type=submit] {
 	float: right;
 	box-shadow: 1px 5px 3px rgb(29,87,100);
 }
-
+.alerta {
+	color: rgb(7,68,85);	
+}
 /* <-- contactos */
 
 
@@ -1142,4 +1212,8 @@ input[type=submit] {
 	width: 100%;
 	height: 100%;
 	z-index: 2;
+}
+
+.naranja {
+	color: #ff3511;
 }

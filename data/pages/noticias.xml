@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Fri, 11 Jul 2014 01:36:58 -0300</pubDate><title><![CDATA[NOTICIAS]]></title><url><![CDATA[noticias]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[NOTICIAS]]></menu><menuOrder><![CDATA[2]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[			&lt;div id=&quot;hometextos&quot;&gt;
+<item><pubDate>Mon, 14 Jul 2014 01:34:58 -0300</pubDate><title><![CDATA[NOTICIAS]]></title><url><![CDATA[noticias]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[NOTICIAS]]></menu><menuOrder><![CDATA[2]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[			&lt;div id=&quot;hometextos&quot;&gt;
 &lt;div id=&quot;noticia1&quot;&gt;
 				&lt;h2&gt;&lt;div class=&quot;contenedor&quot;&gt;El Secretario de Energía visita Decosur&lt;/div&gt;&lt;/h2&gt;
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
-				&lt;p &gt; El viernes 25 de agosto, el secretario de Energía de la Nación, Daniel Cameron, cumplió la promesa de visitar la Cooperativa de Trabajo Decosur.  Los asociados, que estaban cumpliendo sus tareas habituales, se vieron sorprendidos cuando desde la portería avisaron de la inesperada visita.&lt;a href=&quot;#noticia1&quot; class=&quot;mas&quot;&gt;Ver más&lt;/a&gt;&lt;a href=&quot;#&quot; class=&quot;menos&quot;&gt;Ver menos&lt;/a&gt;&lt;/p&gt;
+				&lt;p &gt; El viernes 25 de agosto, el secretario de Energía de la Nación, Daniel Cameron, cumplió la promesa de visitar la Cooperativa de Trabajo Decosur.  Los asociados, que estaban cumpliendo sus tareas habituales, se vieron sorprendidos cuando desde la portería avisaron de la inesperada visita.
+&lt;BR /&gt;&lt;span&gt;
+Daniel Cameron y su comitiva visitaron las instalaciones de la planta principal y del nuevo emprendimiento desarrollado en la planta adquirida por la cooperativa a la firma Solvay INDUPA, posteriormente en un ambiente distendido, trazó un panorama de la política energética y la actual  coyuntura en el sector de combustibles, respondiendo pacientemente las inquietudes de los asociados a la cooperativa y se mostró muy interesado por la historia de la recuperación de la empresa.&lt;BR /&gt;
+Finalmente el Secretario compartió un asado con los trabajadores, que se quedaron admirados de la actitud llana  y cordial que mostró el funcionario, quien felicitó especialmente por el rendimiento e idoneidad que desarrolló la cooperativa en el cumplimiento de los trabajos. &lt;/span&gt;
+&lt;a href=&quot;#noticia1&quot; class=&quot;mas&quot;&gt;Ver más&lt;/a&gt;&lt;a href=&quot;#&quot; class=&quot;menos&quot;&gt;Ver menos&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&quot;noticia2&quot;&gt;
 				&lt;h2&gt;&lt;div class=&quot;contenedor&quot;&gt;Convenio con ACUMAR&lt;/div&gt;&lt;/h2&gt;

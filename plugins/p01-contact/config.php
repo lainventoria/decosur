@@ -10,9 +10,9 @@
 $p01contact_settings = array(
 'enable' => True,
 'lang' => 'es',
-'default_email' => '',
+'default_email' => 'bazza@riseup.net',
 'default_params' => 'name!, subject, email!,  message!',
-'message_len' => 100,
+'message_len' => 4,
 'checklist_name' => '',
 'checklist_email' => 'anonymailer.net,anonymails.com,anonymouse.org,anonymousspeech.com,brefmail.com,hidemyass.com,mail4trash.com,mailfreeonline.com,mailinator.com,mail-temporaire.fr,makemetheking.com,mytrashmail.com,sendanonymousemail.com,sendanonymousemail.net,send-email.org,sharpmail.co.uk,tempinbox.com,theanonymousemail.com,trashmail.net,trash-mail.com,jetable.org,yopmail.com',
 'checklist_address' => '',

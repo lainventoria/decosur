@@ -13,9 +13,11 @@
 	<meta name="robots" content="index, follow">
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8;charset=utf-8">
 	<title><?php get_page_clean_title(); ?> - <?php get_site_name(); ?></title>
+	<link type="text/css" rel="stylesheet" href="<?php get_theme_url(); ?>/css/orbit-1.2.3.css" />
 	<link type="text/css" rel="stylesheet" href="<?php get_theme_url(); ?>/css/estilo.css" />
 	<?php get_header(); ?>
 	<script src="<?php get_theme_url(); ?>/assets/js/jquery-1.10.2.js"></script>
+	<script src="<?php get_theme_url(); ?>/assets/js/jquery.orbit-1.2.3.min.js"></script>
 </head>
 	<body id="<?php get_page_slug(); ?>" >
 		<div id="menusuperior">

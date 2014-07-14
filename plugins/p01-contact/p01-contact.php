@@ -1013,7 +1013,7 @@ class P01contact_field
         $html .= $this->required ? ' * ' : '';
         
         if(!empty($this->error)) {
-            $html .= ' <span style="font-size:0.7em;color:red">';
+            $html .= ' <span class="alerta">';
             $html .= $this->form->lang($this->error);
             $html .= '</span>';
         }
