@@ -49,7 +49,7 @@ body, html {
 	/* background: url(../img/historia_imagen.png); */
 	overflow: hidden;
 	background: #fff;
-	border: 6px solid #fff;
+	border: 4px solid #fff;
 }
 
 #ruido {
@@ -84,12 +84,17 @@ body, html {
 	padding-left:14px;
 }
 
+
+
 #submenu li a, #menu li a,  #submenu_cooperativa  li a {
 	color: #4d4d4d;
 	text-decoration: none;
 }
-
-#menu li a:hover, #submenu li a:hover, #menu li.active a, #submenu_cooperativa li a:hover {
+#plantas * .plantas a, 
+#tanques * .tanques a, 
+#gestion * .gestion a, 
+#historia * .historia a, 
+#cooperativa * .coop_cooperativa a, #menu li a:hover, #submenu li a:hover, #menu li.active a, #submenu_cooperativa li a:hover {
 	color: #ff3511;
 }
 
@@ -176,7 +181,7 @@ body, html {
 }
 
 #clientes #hometextos {
-	background: url(../img/bg/clientes.png) center -36px no-repeat #216778;	
+	background: url(../img/bg/clientes.png) center -52px no-repeat #216778;	
 }
 
 
@@ -185,7 +190,7 @@ body, html {
 }
 
 #historia #contenido {
-	background: url(../img/bg/cooperativa.png) center 150px no-repeat #216778;
+	background: url(../img/bg/cooperativa.png) center 160px no-repeat #216778;
 }
 
 #cooperativa #contenido {

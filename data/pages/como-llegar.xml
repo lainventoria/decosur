@@ -1,2 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Thu, 12 Jun 2014 13:58:20 -0300</pubDate><title>CÓMO LLEGAR </title><url>como-llegar</url><meta></meta><metad></metad><menu>CÓMO LLEGAR </menu><menuStatus>Y</menuStatus><template>template.php</template><parent></parent><content></content><private></private><author>coop</author><menuOrder><![CDATA[6]]></menuOrder></item>
+<item><pubDate>Mon, 14 Jul 2014 18:00:41 -0300</pubDate><title><![CDATA[CÓMO LLEGAR ]]></title><url><![CDATA[como-llegar]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[CÓMO LLEGAR ]]></menu><menuOrder><![CDATA[6]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;div id=&quot;homebanner&quot;&gt;
+				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
+				&lt;h1&gt;Cómollegar&lt;/h1&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
+			&lt;div id=&quot;hometextos&quot;&gt;
+				&lt;h1&gt;Puerto de Dock Sud&lt;/h1&gt;
+				&lt;p&gt;Se encuentra situado a cinco minutos al sur de la Ciudad de Buenos Aires, es el principal puerto de la Provincia de Buenos Aires por su movimiento económico. Constituye un punto polimodal de conexión fluvial, por carretera y ferrocarril con acceso a toda la hidrovía.&lt;br /&gt;
+				Fue creado para operar fundamentalmente con hidrocarburos y se encuentran en él las principales empresas petroleras que operan en el país ya que sus instalaciones y logística están diseñadas para ese fin. &lt;/p&gt;
+				&lt;h2&gt;&lt;div class=&quot;contenedor&quot;&gt;Acceso directo a los muelles D, E y F que se encuentran en el canal principal&lt;br /&gt;Calado de aproximadamente de 28 pies.&lt;/div&gt;&lt;/h2&gt;
+				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
+				&lt;img src=&quot;theme/decosur/img/comollegar.jpg&quot; /&gt;
+				&lt;h3&gt;&lt;div class=&quot;contenedor&quot;&gt;Partiendo de Capital&lt;/div&gt;&lt;/h3&gt;
+				&lt;p&gt;AUTOS: tomar la segunda salida después del peaje de Dock Sud (Km 8,5) Girar cerrado por Debenedetti hacia el puente de la Boca.&lt;br /&gt;
+				Girar a la derecha en calle Ocantos (primer semáforo) (bloque de cemento pintado de amarillo) Seguir el asfalto doblando en Larroque hasta el paredón de Shell donde se gira a la izquierda hasta plantas.&lt;/p&gt;
+			&lt;/div&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
