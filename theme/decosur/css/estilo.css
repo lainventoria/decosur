@@ -55,10 +55,22 @@ body, html {
 	position: absolute;
 	width: 406px;
 	height: 300px;
-	background: url(../img/historia/ruido.gif);
+	background: url(../img/historia/noise.gif);
 	z-index: 1000;
 	left: 0;
+	opacity: .6;
 }
+
+#ruido1 {
+	position: absolute;
+	width: 406px;
+	height: 300px;
+	background: url(../img/historia/noise1.gif);
+	z-index: 1000;
+	left: 0;
+	opacity: .6;
+}
+
 
 #gestion * #submenu, #tanques * #submenu, #plantas * #submenu {
 	display: block;
