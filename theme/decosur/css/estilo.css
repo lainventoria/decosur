@@ -241,7 +241,7 @@ body, html {
 
 #gestion #contenido {
 	position: relative;
-	background: url(../img/bg/gestion.png) center 50px no-repeat #216778;
+	background: url(../img/bg/gestion.png) center 80px no-repeat #216778;
 	height: 1342px;
 }
 
@@ -251,7 +251,7 @@ body, html {
 	left: 0;
 	width: 100%;
 	height: 537px;
-	background: url(../img/bg/gestionfg.png) center 0 no-repeat;
+	background: url(../img/bg/gestionfg.png) center 50px no-repeat;
 }
 #cooperativa #contenido p {
 	line-height: 1.5;
