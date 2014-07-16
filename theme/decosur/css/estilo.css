@@ -2,9 +2,87 @@
 	/* border: 1px solid red; */
 }
 /*
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans:n,b,i|Ubuntu:n,b,i|Alegreya+Sans+SC:n,b,i|Ubuntu+Mono:n,b,i|Yanone+Kaffeesatz:n,b,i');
 */
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:n,b,i|Ubuntu:n,b,i|Alegreya+Sans+SC:n,b,i|Ubuntu+Mono:n,b,i|Yanone+Kaffeesatz:n,b,i);
 
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya Sans SC'), local('AlegreyaSansSC-Regular'), url(https://fonts.gstatic.com/s/alegreyasanssc/v2/6kgb6ZvOagoVIRZyl8XV-F1_68YLtTmKn7AnUVga1YU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Alegreya Sans SC Bold'), local('AlegreyaSansSC-Bold'), url(https://fonts.gstatic.com/s/alegreyasanssc/v2/AjAmkoP1y0Vaad0UPPR4612Hw7dCZcVb7jrxLR79C34.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Alegreya Sans SC';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Alegreya Sans SC Italic'), local('AlegreyaSansSC-Italic'), url(https://fonts.gstatic.com/s/alegreyasanssc/v2/trwFkDJLOJf6hqM93944kanwW7lADF4m5UvrnBy4Suw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(https://themes.googleusercontent.com/static/fonts/droidsans/v4/s-BiyweUPV0v-yRb-cjciC3USBnSvpkopQaUR-2r7iU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(https://themes.googleusercontent.com/static/fonts/droidsans/v4/EFpQQyG9GqCrobXxL-KRMfEr6Hm6RMS0v1dtXsGir4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(https://themes.googleusercontent.com/static/fonts/ubuntu/v5/2Q-AW1e_taO6pHwMXcXW5w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://themes.googleusercontent.com/static/fonts/ubuntu/v5/0ihfXUL2emPh0ROJezvraKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url(https://themes.googleusercontent.com/static/fonts/ubuntu/v5/ISUraQdBYMI3VoDzBxXqNvesZW2xOQ-xsNqO47m55DA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(https://themes.googleusercontent.com/static/fonts/ubuntumono/v4/ViZhet7Ak-LRXZMXzuAfkZ0EAVxt0G0biEntp43Qt6E.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Mono Bold'), local('UbuntuMono-Bold'), url(https://themes.googleusercontent.com/static/fonts/ubuntumono/v4/ceqTZGKHipo8pJj4molytp_TkvowlIOtbR7ePgFOpF4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Ubuntu Mono Italic'), local('UbuntuMono-Italic'), url(https://themes.googleusercontent.com/static/fonts/ubuntumono/v4/KAKuHXAHZOeECOWAHsRKA-LrC4Du4e_yfTJ8Ol60xk0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Yanone Kaffeesatz Regular'), local('YanoneKaffeesatz-Regular'), url(https://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v5/YDAoLskQQ5MOAgvHUQCcLbvy90DtE_Pg_qiF9bHvTzw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Yanone Kaffeesatz';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Yanone Kaffeesatz Bold'), local('YanoneKaffeesatz-Bold'), url(https://themes.googleusercontent.com/static/fonts/yanonekaffeesatz/v5/We_iSDqttE3etzfdfhuPRUgbSk09ekaEjkXjfj0Ujx8.ttf) format('truetype');
+}
 /*
 @font-face {
   font-family: 'Droid Sans';
@@ -188,7 +266,7 @@ body, html {
 	position: absolute;
 	right: 99px;
 	width: 96px;
-	heght: 11px;
+	height: 11px;
 	background: #ff3511;
 	font-size: 10px;
 	font-family: ubuntu, "Droid Sans", sans-serif;
@@ -268,7 +346,7 @@ body, html {
 
 
 #homebanner h1 {
-	widht: 100%;
+	width: 100%;
 	font-size: 89px; 
 	font-family: "Ubuntu", "Droid Sans", sans-serif;
 	text-decoration: none;
@@ -333,7 +411,7 @@ body, html {
 	background: #2c89a0;
 	padding-left: 96px;
 	padding-right: 12px;
-	widht: 0;
+	width: 0;
 	color: #fff;
 }
 #homebanner .contenedor {
@@ -825,7 +903,7 @@ h3 * {
 }
 /* genericos */
 .contenedor {
-	tex-align: left;
+	text-align: left;
 	width: 880px;
 	height: 100%;
 	display: block;
@@ -836,7 +914,7 @@ h3 * {
 }
 #cooperativa * h2 .contenedor  {
 	width: 960px;
-	tex-align: center;
+	text-align: center;
 }
 
 .sombra1 {
