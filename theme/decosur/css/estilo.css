@@ -2,12 +2,10 @@
 	/* border: 1px solid red; */
 }
 /*
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu);
-@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC); 
-@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono); 
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 */
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:n,b,i|Ubuntu:n,b,i|Alegreya+Sans+SC:n,b,i|Ubuntu+Mono:n,b,i|Yanone+Kaffeesatz:n,b,i);
+
+/*
 @font-face {
   font-family: 'Droid Sans';
   font-style: normal;
@@ -43,7 +41,7 @@
   font-weight: 400;
   src: local('Yanone Kaffeesatz Regular'), local('wof/YanoneKaffeesatz-Regular'), url(Yanone_Kaffeesatz.woff) format('woff');
 }
-
+*/
 
 body, html {
 	min-width: 880px;
