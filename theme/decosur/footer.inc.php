@@ -54,7 +54,7 @@ Teléfono (54 11) 4222-9240 / 4201-0922 - <br /> <a href="mailto:administracion@
 				});
 				$(window).load(function() {
 				$('#featured').orbit({
-				  animation: 'fade',animationSpeed: 400, timer: true, advanceSpeed: 10000
+				  animation: 'fade',animationSpeed: 400, timer: true, advanceSpeed: 5000
 				});
 			});
 				/*

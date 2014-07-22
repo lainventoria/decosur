@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Mon, 14 Jul 2014 01:48:46 -0300</pubDate><title><![CDATA[PLANTAS]]></title><url><![CDATA[plantas]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[PLANTAS]]></menu><menuOrder><![CDATA[6]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Mon, 21 Jul 2014 23:39:22 -0300</pubDate><title><![CDATA[PLANTAS]]></title><url><![CDATA[plantas]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[PLANTAS]]></menu><menuOrder><![CDATA[6]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;div id=&quot;homebanner&quot;&gt;
 				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Plantas&lt;/h1&gt;
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
-				&lt;div class=&quot;imagen&quot;&gt;&lt;/div&gt;
+				&lt;div class=&quot;imagen&quot;&gt;
+				&lt;div id=&quot;colder&quot;&gt; 
+						&lt;div id=&quot;featured&quot;&gt; 
+				            &lt;img src=&quot;theme/decosur/img/banner/plantas.jpg&quot; /&gt;
+				            &lt;img src=&quot;theme/decosur/img/banner/plantas1.jpg&quot;  /&gt;
+				           &lt;img src=&quot;theme/decosur/img/banner/plantas2.jpg&quot;  /&gt;
+						&lt;/div&gt;
+				&lt;/div&gt;
+				&lt;/div&gt;
 			&lt;/div&gt;
 			&lt;div id=&quot;barraceleste&quot;&gt;
 				&lt;div class=&quot;contenedor&quot;&gt;

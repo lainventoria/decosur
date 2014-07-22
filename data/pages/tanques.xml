@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Mon, 14 Jul 2014 04:18:31 -0300</pubDate><title><![CDATA[TANQUES]]></title><url><![CDATA[tanques]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[TANQUES]]></menu><menuOrder><![CDATA[7]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Mon, 21 Jul 2014 23:38:58 -0300</pubDate><title><![CDATA[TANQUES]]></title><url><![CDATA[tanques]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[TANQUES]]></menu><menuOrder><![CDATA[7]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
 				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Tanques&lt;/h1&gt;
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
 				&lt;div class=&quot;imagen&quot;&gt;
 				&lt;div id=&quot;colder&quot;&gt; 
 						&lt;div id=&quot;featured&quot;&gt; 
-
 				            &lt;img src=&quot;theme/decosur/img/banner/tanques.jpg&quot; /&gt;
 				            &lt;img src=&quot;theme/decosur/img/banner/tanques1.jpg&quot;  /&gt;
+				           &lt;img src=&quot;theme/decosur/img/banner/tanques2.jpg&quot;  /&gt;
 						&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;/div&gt;
