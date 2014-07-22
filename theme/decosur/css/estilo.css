@@ -763,6 +763,9 @@ h3 * {
 	background: #2c89a0;
 	text-align: center;
 }
+#homesolapas .contenedor {
+	text-align: center;	
+}
 #barraceleste {
 	font-size: 24px;
 	font-family: "Yanone Kaffeesatz", impact, serif;
