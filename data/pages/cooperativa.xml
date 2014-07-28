@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Wed, 18 Jun 2014 22:56:19 +0000</pubDate><title><![CDATA[COOPERATIVA]]></title><url><![CDATA[cooperativa]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[COOPERATIVA]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Mon, 28 Jul 2014 18:41:22 -0300</pubDate><title><![CDATA[COOPERATIVA]]></title><url><![CDATA[cooperativa]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[COOPERATIVA]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
 				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Cooperativa&lt;/h1&gt;
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
@@ -20,7 +20,9 @@ La mayoría del personal que hoy integra la cooperativa perteneció a la firma V
 					&lt;div class=&quot;imagen s03&quot; &gt;&lt;/div&gt;
 				&lt;/div&gt;
 				&lt;p&gt;La entidad se rige formalmente por su Estatuto Social y Reglamento Interno aprobados por el INAES siguiendo la Ley Nacional de Cooperativas y resoluciones emanadas del organismo. Estas normativas han sido aplicadas a la actividad específica garantizando disciplina y organización en una actividad que exige el estricto cumplimiento de normativas de seguridad y preservación del medio ambiente.&lt;br /&gt;
-La cooperativa se encuentra asociada a la Federación de Cooperativas de Trabajo de la República Argentina FECOOTRA y por tanto partiacipa en la Confederación Nacional de Cooperativas de Trabajo CNCT,  desarrollando una activa vida gremial y social.&lt;/p&gt;
+La cooperativa mantiene una activa vida gremial y social, en función de sus objetivos dentro de la economía social y participa en las estructuras federativas del sector.
+&lt;!--
+La cooperativa se encuentra asociada a la Federación de Cooperativas de Trabajo de la República Argentina FECOOTRA y por tanto partiacipa en la Confederación Nacional de Cooperativas de Trabajo CNCT,  desarrollando una activa vida gremial y social.--&gt;&lt;/p&gt;
 			&lt;/div&gt;
 
 
