@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Mon, 28 Jul 2014 19:52:40 -0300</pubDate><title><![CDATA[index]]></title><url><![CDATA[index_en]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><content><![CDATA[&lt;div id=&quot;homebanner&quot;&gt;
+	&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
+	&lt;div class=&quot;contenedor&quot;&gt;
+		&lt;div class=&quot;texto1&quot;&gt;COOPERATIVE MANAGEMENT:&lt;/div&gt;
+		&lt;div class=&quot;texto2&quot;&gt;SERVICE QUALITY AND SAFETY GUARANTY&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;sombra2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;homeanimacion&quot;&gt;
+	&lt;div class=&quot;contenedor&quot;&gt;
+		&lt;div id=&quot;homeanimaciontexto&quot;&gt;LOGISTICS AND STORAGE&lt;br /&gt;
+			OF LIQUID PRODUCTS&lt;/div&gt;
+		&lt;div id=&quot;homeanimacionbg&quot;&gt;&lt;/div&gt;
+		&lt;div id=&quot;homeanimacionfg&quot;&gt;&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;hometextos&quot;&gt;
+	&lt;div class=&quot;contenedor&quot;&gt;
+		&lt;div id=&quot;obrero&quot;&gt;&lt;/div&gt;
+		&lt;h1&gt;QUALITY SAFETY EXPERIENCE&lt;/h1&gt;
+		&lt;h2&gt;Cooperativa de Trabajo Decosur&lt;/h2&gt;
+		&lt;div class=&quot;parrafo1&quot;&gt;Worker cooperative DECOSUR is a company that offers a fuel storage and logistics service, and it is located in the port of Dock Sud.
+We proudly offer this service and meet the most demanding requests of our clients who trust us with their valuable products, owing to our many years’ &lt;b&gt;experience&lt;/b&gt; of exploitation of one of the most adequate and &lt;b&gt;best-located&lt;/b&gt; plants to provide this kind of service.
+&lt;/div&gt;
+		&lt;div id=&quot;obreros&quot;&gt;&lt;/div&gt;
+		&lt;div class=&quot;parrafo2&quot;&gt;Since it commenced to operate, the cooperative did its best to continually improve its processes and the premises where it operates. Thus, at present, the cooperative satisfies the most demanding requirements in terms of operations quality and security with the superb commitment and expertise that characterize a &lt;b&gt;cooperative that is self-managed&lt;/b&gt; by its workers.&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;sombra2&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;homesolapas&quot;&gt;
+	&lt;div class=&quot;contenedor&quot;&gt;&lt;a class=&quot;tanques&quot; href=&quot;?id=tanques&quot;&gt;Tanks &lt;/a&gt; &lt;a class=&quot;gestion&quot; href=&quot;?id=gestion&quot;&gt;Management&lt;/a&gt; &lt;a class=&quot;plantas&quot; href=&quot;?id=plantas&quot;&gt;Plants&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;homecaja&quot;&gt;IT IS THE POLICY OF OUR COOPERATIVE TO PRESERVE AND MAKE OTHERS PRESERVE &lt;b&gt;THE ENVIRONMENT&lt;/b&gt;, LOOKING FOR THE COOPERATIVE´S OWN GOOD AS WELL AS THE GOOD OF THE SURROUNDING &lt;b&gt;COMMUNITY&lt;/b&gt;&lt;/div&gt;
+]]></content><author><![CDATA[admin]]></author><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu></item>
