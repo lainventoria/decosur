@@ -8,7 +8,10 @@
  * @package p01-contact
  * @version 0.9.1
  */
+
+
 if(session_id()=='') session_start();
+
 
 class P01contact 
 {
@@ -287,7 +290,7 @@ class P01contact
         global $p01contact_lang;
         
         $lang = $this->settings('lang');
-        $lang = empty($lang) ? $this->default_lang : $lang;
+        $lang = empty($lang) ? $this->default_lang : $lang;      
         
         $path = LANGPATH . $lang . '.php';
         
@@ -573,7 +576,8 @@ class P01contact_form
      * @return string the <form>
      */
     public function html() 
-    {     
+    {    
+       $p01contact_settings['lang']=$language; 
         $html  = '<form action="#p01-contact' . $this->id . '" autocomplete="off" ';
         $html .= 'id="p01-contact' . $this->id . '" class="p01-contact" method="post">';
     

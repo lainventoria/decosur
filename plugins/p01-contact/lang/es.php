@@ -39,4 +39,5 @@ $p01contact_lang = array(
 'field_message' => 'El mensaje ha de ser más largo',
 'field_captcha' => 'Copiar el siguiente texto'
 );
+
 ?>

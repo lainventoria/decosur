@@ -9,7 +9,7 @@
  */
 $p01contact_settings = array(
 'enable' => True,
-'lang' => 'es',
+'lang' => $_COOKIE['language'],
 'default_email' => 'ehuesdens@decosurcoop.com.ar, ghoffmann@decosurcoop.com.ar',
 'default_params' => 'name!, subject, email!,  message!',
 'message_len' => 4,
@@ -21,4 +21,7 @@ $p01contact_settings = array(
 'checklist_subject' => '',
 'checklist_message' => '',
 'debug' => False,
-);?>
+);
+
+
+?>
