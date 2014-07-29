@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Fri, 11 Jul 2014 02:06:44 -0300</pubDate><title><![CDATA[GESTIÓN]]></title><url><![CDATA[gestion]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[SERVICIOS]]></menu><menuOrder><![CDATA[3]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Fri, 11 Jul 2014 02:06:44 -0300</pubDate><title><![CDATA[GESTIÓN]]></title><url><![CDATA[gestion]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><template><![CDATA[template.php]]></template><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
 			&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Gestión&lt;/h1&gt;
 			&lt;/div&gt;
@@ -32,4 +32,4 @@ Dentro del mismo se han dispuesto tareas de monitoreo, prevención y control de 
 					&lt;div class=&quot;imagen s03&quot; &gt;&lt;span&gt;Ensayo hidrantes&lt;/span&gt;&lt;/div&gt;
 					&lt;div class=&quot;sombra2&quot;&gt;&lt;/div&gt;
 				&lt;/div&gt;
-		&lt;/div&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
+		&lt;/div&gt;]]></content><author><![CDATA[admin]]></author><parent><![CDATA[]]></parent><menuOrder><![CDATA[4]]></menuOrder><menu><![CDATA[SERVICIOS]]></menu><menuStatus><![CDATA[Y]]></menuStatus><private><![CDATA[]]></private></item>

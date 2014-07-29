@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Tue, 24 Jun 2014 16:28:47 -0300</pubDate><title><![CDATA[CLIENTES]]></title><url><![CDATA[clientes]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[CLIENTES]]></menu><menuOrder><![CDATA[4]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[			&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Tue, 24 Jun 2014 16:28:47 -0300</pubDate><title><![CDATA[CLIENTES]]></title><url><![CDATA[clientes]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><template><![CDATA[template.php]]></template><content><![CDATA[			&lt;div id=&quot;homebanner&quot;&gt;
 				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Clientes&lt;/h1&gt;
 			&lt;/div&gt;
@@ -47,4 +47,4 @@ En los últimos años la actividad se ha centrado en el trabajo con hidrocarburo
 				&lt;p&gt;En los últimos años, como consecuencia del crecimiento sostenido de la actividad económica se ha incrementado el consumo energético de manera notable, más del 60 % de la generación eléctrica se produce en centrales térmicas alimentadas mediante combustibles de origen mineral.&lt;/ br&gt;
 La Cooperativa Decosur contribuye con sus actividades al abastecimiento de estas centrales distribuidas a lo largo de todo el país, habiendo alcanzado un nivel de eficiencia valorado por los organismos responsables del suministro eléctrico y recibido distinciones de la Secretaría de Energía de la Nación.&lt;/p&gt;
 
-				&lt;p&gt;Esta responsabilidad nos enorgullece, ha permitido el crecimiento de la cooperativa duplicando en estos años el número de trabajadores y la capacidad de las instalaciones pero fundamentalmente porque nos permite contribuir al desarrollo de nuestra patria.&lt;/p&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
+				&lt;p&gt;Esta responsabilidad nos enorgullece, ha permitido el crecimiento de la cooperativa duplicando en estos años el número de trabajadores y la capacidad de las instalaciones pero fundamentalmente porque nos permite contribuir al desarrollo de nuestra patria.&lt;/p&gt;]]></content><author><![CDATA[admin]]></author><parent><![CDATA[]]></parent><menuOrder><![CDATA[5]]></menuOrder><menu><![CDATA[]]></menu><menuStatus><![CDATA[Y]]></menuStatus><private><![CDATA[]]></private></item>

@@ -7,7 +7,7 @@
 $p01contact_langs = array(
 'de' => 'Deutsch',
 'en' => 'English',
-'es' => '~Español',
+'es' => 'Español',
 'fr' => 'Français',
 'it' => '~Italiano',
 'nl' => '~Nederlands',

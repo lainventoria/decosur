@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Tue, 29 Jul 2014 15:14:46 -0300</pubDate><title><![CDATA[Contact us]]></title><url><![CDATA[contacto_en]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
+				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
+				&lt;h1&gt;Contact us&lt;/h1&gt;
+		&lt;/div&gt;
+		&lt;div id=&quot;barraceleste&quot;&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
+		&lt;div id=&quot;hometextos&quot;&gt;
+(% contact %)
+		&lt;/div&gt;]]></content><author><![CDATA[admin]]></author><parent><![CDATA[]]></parent><private><![CDATA[]]></private><menu><![CDATA[]]></menu></item>

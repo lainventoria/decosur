@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Mon, 14 Jul 2014 00:38:31 -0300</pubDate><title><![CDATA[Inicio]]></title><url><![CDATA[index]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[COOPERATIVA]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Mon, 14 Jul 2014 00:38:31 -0300</pubDate><title><![CDATA[Inicio]]></title><url><![CDATA[index]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><template><![CDATA[template.php]]></template><content><![CDATA[&lt;div id=&quot;homebanner&quot;&gt;
 	&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
 	&lt;div class=&quot;contenedor&quot;&gt;
 		&lt;div class=&quot;texto1&quot;&gt;GESTIÓN COOPERATIVA:&lt;/div&gt;
@@ -31,4 +31,4 @@
 &lt;/div&gt;
 &lt;div id=&quot;homecaja&quot;&gt;ES POLITICA DE NUESTRA COOPERATIVA PRESERVAR Y HACER PRESERVAR EL &lt;b&gt;MEDIO&lt;/b&gt;&lt;br /&gt;
 	&lt;b&gt;AMBIENTE&lt;/b&gt; BUSCANDO EL BIEN PROPIO Y DE LA &lt;b&gt;COMUNIDAD&lt;/b&gt; QUE NOS RODEA&lt;/div&gt;
-]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
+]]></content><author><![CDATA[admin]]></author><parent><![CDATA[]]></parent><menuOrder><![CDATA[2]]></menuOrder><menu><![CDATA[COOPERATIVA]]></menu><menuStatus><![CDATA[]]></menuStatus><private><![CDATA[]]></private></item>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Mon, 21 Jul 2014 23:38:58 -0300</pubDate><title><![CDATA[TANQUES]]></title><url><![CDATA[tanques]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[TANQUES]]></menu><menuOrder><![CDATA[7]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Mon, 21 Jul 2014 23:38:58 -0300</pubDate><title><![CDATA[TANQUES]]></title><url><![CDATA[tanques]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><template><![CDATA[template.php]]></template><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
 				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Tanques&lt;/h1&gt;
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
@@ -508,4 +508,4 @@ Se posee un parque de tanques calefaccionados además de tanques especiales, con
 						&lt;/tbody&gt;
 					&lt;/table&gt;
 			&lt;/div&gt;
-&lt;/div&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
+&lt;/div&gt;]]></content><author><![CDATA[admin]]></author><parent><![CDATA[]]></parent><menuOrder><![CDATA[9]]></menuOrder><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><private><![CDATA[]]></private></item>

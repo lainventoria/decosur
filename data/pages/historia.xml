@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Mon, 28 Jul 2014 18:43:33 -0300</pubDate><title><![CDATA[HISTORIA]]></title><url><![CDATA[historia]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menu><![CDATA[HISTORIA]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[			&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Mon, 28 Jul 2014 18:43:33 -0300</pubDate><title><![CDATA[HISTORIA]]></title><url><![CDATA[historia]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><template><![CDATA[template.php]]></template><content><![CDATA[			&lt;div id=&quot;homebanner&quot;&gt;
 				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Historia&lt;/h1&gt;
 			&lt;/div&gt;
@@ -33,4 +33,4 @@ Ante la quiebra de la sociedad anónima en Septiembre de 2001, los trabajadores 
 				&lt;p&gt;
 					Desde entonces continúa su proceso de desarrollo, habiendo sabido ganar la &lt;b&gt;confianza de clientes, proveedores, empresas auditoras y organismos públicos&lt;/b&gt; involucrados. Profundizando los valores cooperativos y ganando en eficiencia y responsabilidad.&lt;br /&gt;
 En enero de 2012 la cooperativa adquiere la planta de SOLVAY INDUPA, que deja su actividad en Dock Sud, reconvirtiéndola a la actividad petrolera para dedicarla por entero al abastecimiento de gasoil al sistema eléctrico, coronando de esta forma el proceso iniciado en la recuperación de la empresa. 
-				&lt;/p&gt;]]></content><private><![CDATA[]]></private><author><![CDATA[admin]]></author></item>
+				&lt;/p&gt;]]></content><author><![CDATA[admin]]></author><parent><![CDATA[]]></parent><menuOrder><![CDATA[0]]></menuOrder><menu><![CDATA[]]></menu><menuStatus><![CDATA[]]></menuStatus><private><![CDATA[]]></private></item>
