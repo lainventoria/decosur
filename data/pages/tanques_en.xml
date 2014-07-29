@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item><pubDate>Mon, 28 Jul 2014 21:47:40 -0300</pubDate><title><![CDATA[TANKS]]></title><url><![CDATA[tanques_en]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
+<item><pubDate>Tue, 29 Jul 2014 16:22:47 -0300</pubDate><title><![CDATA[TANKS]]></title><url><![CDATA[tanques_en]]></url><meta><![CDATA[]]></meta><metad><![CDATA[]]></metad><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><content><![CDATA[		&lt;div id=&quot;homebanner&quot;&gt;
 				&lt;div class=&quot;sombra1&quot;&gt;&lt;/div&gt;
 				&lt;h1&gt;Tanks&lt;/h1&gt;
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
@@ -27,10 +27,10 @@ Tanks are legally authorized by Resolución 785 [rule No. 785] passed by the Sec
 The cooperative owns a group of heated tanks and also special tanks made of stainless steel and protected with an inert atmosphere.&lt;/p&gt;
 				&lt;h2&gt;&lt;div class=&quot;contenedor&quot;&gt;DETAILS OF TANKS AND CAPACITIES&lt;/div&gt;&lt;/h2&gt;
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
-				&lt;h3&gt;&lt;div class=&quot;contenedor&quot;&gt;Planta 1&lt;/div&gt;&lt;/h3&gt;
+				&lt;h3&gt;&lt;div class=&quot;contenedor&quot;&gt;Plant 1&lt;/div&gt;&lt;/h3&gt;
 					&lt;table&gt;
 						&lt;thead&gt;
-							&lt;tr&gt;&lt;th&gt;Tanque Nº&lt;/th&gt; &lt;th&gt;Capacity m3&lt;/th&gt; &lt;th&gt;Comments&lt;/th&gt;&lt;/tr&gt;
+							&lt;tr&gt;&lt;th&gt;Tanks Nº&lt;/th&gt; &lt;th&gt;Capacity m3&lt;/th&gt; &lt;th&gt;Comments&lt;/th&gt;&lt;/tr&gt;
 						&lt;/thead&gt;
 						&lt;tbody&gt;
 &lt;TR&gt;
@@ -463,12 +463,12 @@ The cooperative owns a group of heated tanks and also special tanks made of stai
 
 						&lt;/tbody&gt;
 					&lt;/table&gt;
-				&lt;h2&gt;&lt;div class=&quot;contenedor&quot;&gt;Detalle de Tanques  y Capacidadess&lt;/div&gt;&lt;/h2&gt;
+				&lt;h2&gt;&lt;div class=&quot;contenedor&quot;&gt;DETAILS OF TANKS AND CAPACITIES&lt;/div&gt;&lt;/h2&gt;
 				&lt;div class=&quot;sombra1 relativo&quot;&gt;&lt;/div&gt;
-				&lt;h3&gt;&lt;div class=&quot;contenedor planta2&quot;&gt;Planta 2&lt;/div&gt;&lt;/h3&gt;
+				&lt;h3&gt;&lt;div class=&quot;contenedor planta2&quot;&gt;Plant 2&lt;/div&gt;&lt;/h3&gt;
 					&lt;table&gt;
 						&lt;thead&gt;
-							&lt;tr&gt;&lt;th&gt;Tanque Nº&lt;/th&gt; &lt;th&gt;Capacidad m3&lt;/th&gt; &lt;th&gt;Observaciones&lt;/th&gt;&lt;/tr&gt;
+							&lt;tr&gt;&lt;th&gt;Tank Nº&lt;/th&gt; &lt;th&gt;Capacity m3&lt;/th&gt; &lt;th&gt;Comments&lt;/th&gt;&lt;/tr&gt;
 						&lt;/thead&gt;
 						&lt;tbody&gt;
 	&lt;TR&gt;

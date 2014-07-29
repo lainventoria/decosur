@@ -1,0 +1,17 @@
+/* como llegar */
+
+#como_llegar_pop {
+	background: url(../img/como_llegar_pop_en.png) center center no-repeat;
+}
+
+#plantas #contenido {
+	background: url(../img/bg/plantasbg.png) center 420px no-repeat #216778;
+}
+
+#historia #contenido {
+	background: url(../img/bg/cooperativa.png) center 180px no-repeat #216778;
+}
+
+#clientes #hometextos {
+	background: url(../img/bg/clientes.png) center -50px no-repeat #216778;	
+}

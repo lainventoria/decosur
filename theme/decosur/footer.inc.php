@@ -10,8 +10,14 @@
 		</div>
 		<div id="como_llegar_pop" style="display: none;"></div>
 		<div id="pie">
+	<?php if (isset($language) && $language == 'en') { ?>
+Morse and Sargento Ponce streets intersection <br />[Zip Code:] 1871  Dock Sud – Province of Buenos Aires – Argentina <br />
+Phone: (54 11) 4222-9240 / 4201-0922 - <br /> <a href="mailto:administracion@decosurcoop.com.ar">administracion@decosurcoop.com.ar</a>
+	<?php } else { ?>
 Morse Esq. Sargento Ponce (1871 ) Dock Sud - Provincia de Buenos Aires - Argentina <br />
-Teléfono (54 11) 4222-9240 / 4201-0922 - <br /> <a href="mailto:administracion@decosurcoop.com.ar">administracion@decosurcoop.com.ar</a>
+Teléfono (54 11) 4222-9240 / 4201-0922 <br /> <a href="mailto:administracion@decosurcoop.com.ar">administracion@decosurcoop.com.ar</a>
+
+	<?php } ?>
 			<a id="coopdisenio" href="#"></a>
 		</div>
 		<script>
@@ -23,12 +29,17 @@ Teléfono (54 11) 4222-9240 / 4201-0922 - <br /> <a href="mailto:administracion@
 				$( "#como_llegar_pop" ).click(function() {
 					$( "#como_llegar_pop" ).fadeOut("slow");
 				});
+				// necesito hacer la version en ingles
 				function loop_homeanimaciontexto () {
 					$( "#homeanimaciontexto" ).delay(5000).animate({
 						opacity: 0,
 						left: "+=150",
 						}, 3000, function() {
+							<?php if (isset($language) && $language == 'en') { ?>
+							$(this).html("<span class='naranja'>PORT TERMINAL<br />FISCAL TANKS</span>");
+							<? } else {?>
 							$(this).html("<span class='naranja'>Terminal Portuaria <br />Tanques fiscales </span>");
+							<? } ?>	
 						}).animate({
 						left: "-=150",
 						}, 0).animate({
@@ -39,7 +50,11 @@ Teléfono (54 11) 4222-9240 / 4201-0922 - <br /> <a href="mailto:administracion@
 						opacity: 0,
 						left: "+=150",
 						}, 3000, function() {
+							<?php if (isset($language) && $language == 'en') { ?>
+							$(this).html("LOGISTICS AND STORAGE<br />OF LIQUID PRODUCTS ");
+							<? } else {?>
 							$(this).html("Almacenamiento y logística<br />para productos líquidos ");
+							<? } ?>	
 						}).animate({
 						left: "-=150",
 						}, 0).animate({
