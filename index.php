@@ -9,7 +9,6 @@ error_reporting(0);
  * @subpackage FrontEnd
  */
 
-
 /* pre-common setup, load gsconfig and get GSADMIN path */
 
 	/* GSCONFIG definitions */
@@ -40,6 +39,10 @@ error_reporting(0);
 
 # Include common.php
 include($GSADMIN.'/inc/common.php');
+
+if ($_COOKIE['language']) {
+	$language=$_COOKIE['language'];
+}
 
 # Hook to load page Cache
 exec_action('index-header');

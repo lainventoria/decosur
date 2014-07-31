@@ -37,9 +37,9 @@ Teléfono (54 11) 4222-9240 / 4201-0922 <br /> <a href="mailto:administracion@de
 						}, 3000, function() {
 							<?php if (isset($language) && $language == 'en') { ?>
 							$(this).html("<span class='naranja'>PORT TERMINAL<br />FISCAL TANKS</span>");
-							<? } else {?>
+							<?php } else {?>
 							$(this).html("<span class='naranja'>Terminal Portuaria <br />Tanques fiscales </span>");
-							<? } ?>	
+							<?php } ?>	
 						}).animate({
 						left: "-=150",
 						}, 0).animate({
@@ -52,9 +52,9 @@ Teléfono (54 11) 4222-9240 / 4201-0922 <br /> <a href="mailto:administracion@de
 						}, 3000, function() {
 							<?php if (isset($language) && $language == 'en') { ?>
 							$(this).html("LOGISTICS AND STORAGE<br />OF LIQUID PRODUCTS ");
-							<? } else {?>
+							<?php } else {?>
 							$(this).html("Almacenamiento y logística<br />para productos líquidos ");
-							<? } ?>	
+							<?php } ?>	
 						}).animate({
 						left: "-=150",
 						}, 0).animate({

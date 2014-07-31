@@ -36,14 +36,14 @@
 					<li class="coop_cooperativa"><a href="?id=cooperativa" title="cooperativa">
 						<?php if (isset($language) && $language == 'en') { ?>
 						COOPERATIVE
-						<? } else { ?>
+						<?php } else { ?>
 						COOPERATIVA
 						<?php } ?>
 					</a></li>
 					<li class="historia"><a href="?id=historia" title="HISTORIA">
 						<?php if (isset($language) && $language == 'en') { ?>
 						HISTORY
-						<? } else { ?>
+						<?php } else { ?>
 						HISTORIA
 						<?php } ?>
 					</a></li>
@@ -52,20 +52,20 @@
 					<li class="tanques"><a href="?id=tanques" title="TANQUES">						
 						<?php if (isset($language) && $language == 'en') { ?>
 						TANKS
-						<? } else { ?>
+						<?php } else { ?>
 						TANQUES
 						<?php } ?></a></li>
 					<li class="gestion"><a href="?id=gestion" title="GESTIÓN">
 						<?php if (isset($language) && $language == 'en') { ?>
 						MANAGEMENT
-						<? } else { ?>
+						<?php } else { ?>
 						GESTION
 						<?php } ?>
 					</a></li>
 					<li class="plantas"><a href="?id=plantas" title="PLANTAS">
 						<?php if (isset($language) && $language == 'en') { ?>
 						PLANTS
-						<? } else { ?>
+						<?php } else { ?>
 						PLANTAS
 						<?php } ?>
 					</a></li>
